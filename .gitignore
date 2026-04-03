@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+*.local
+.vscode
+.idea
+public/originals
+public/subsets
+public/fonts
+字体库/
+
+.workbuddy/

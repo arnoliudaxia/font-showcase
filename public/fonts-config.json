@@ -1,0 +1,1726 @@
+[
+  {
+    "id": "arno_中文字体_书法_gongfannufangti龚帆怒放体",
+    "name": "gongfannufangti龚帆怒放体",
+    "category": "书法",
+    "originalPath": "originals/arno_中文字体_书法_gongfannufangti龚帆怒放体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_书法_gongfannufangti龚帆怒放体.woff2",
+    "size": 32872
+  },
+  {
+    "id": "arno_中文字体_云体_包图小白体",
+    "name": "包图小白体",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_云体_包图小白体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_云体_包图小白体.woff2",
+    "size": 6988,
+    "variants": [
+      {
+        "name": "包图小白体",
+        "weight": "default",
+        "originalPath": "originals/arno_中文字体_云体_包图小白体.ttf",
+        "optimizedPath": "subsets/arno_中文字体_云体_包图小白体.woff2",
+        "size": 6988
+      },
+      {
+        "name": "包图小白体",
+        "weight": "default",
+        "originalPath": "originals/new_包图小白体.ttf",
+        "optimizedPath": "subsets/new_包图小白体.woff2",
+        "size": 6988
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_圆体_优设好身体2.0",
+    "name": "优设好身体2.0",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_优设好身体2.0.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_优设好身体2.0.woff2",
+    "size": 4436
+  },
+  {
+    "id": "arno_中文字体_圆体_猫啃网糖圆体",
+    "name": "猫啃网糖圆体",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_猫啃网糖圆体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_猫啃网糖圆体.woff2",
+    "size": 4988
+  },
+  {
+    "id": "arno_中文字体_圆体_问藏书房",
+    "name": "问藏书房",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_问藏书房.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_问藏书房.woff2",
+    "size": 3824
+  },
+  {
+    "id": "arno_中文字体_圆体_黄煜臣嘿圆",
+    "name": "黄煜臣嘿圆",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_黄煜臣嘿圆.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_黄煜臣嘿圆.woff2",
+    "size": 13732
+  },
+  {
+    "id": "arno_中文字体_圆体_江城圆体_江城圆体_200W",
+    "name": "江城圆体 200W",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_江城圆体_江城圆体_200W.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_江城圆体_江城圆体_200W.woff2",
+    "size": 5900
+  },
+  {
+    "id": "arno_中文字体_圆体_江城圆体_江城圆体_300W",
+    "name": "江城圆体 300W",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_江城圆体_江城圆体_300W.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_江城圆体_江城圆体_300W.woff2",
+    "size": 5772
+  },
+  {
+    "id": "arno_中文字体_圆体_江城圆体_江城圆体_400W",
+    "name": "江城圆体 400W",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_江城圆体_江城圆体_400W.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_江城圆体_江城圆体_400W.woff2",
+    "size": 5884
+  },
+  {
+    "id": "arno_中文字体_圆体_江城圆体_江城圆体_500W",
+    "name": "江城圆体 500W",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_江城圆体_江城圆体_500W.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_江城圆体_江城圆体_500W.woff2",
+    "size": 6140
+  },
+  {
+    "id": "arno_中文字体_圆体_江城圆体_江城圆体_600W",
+    "name": "江城圆体 600W",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_江城圆体_江城圆体_600W.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_江城圆体_江城圆体_600W.woff2",
+    "size": 6212
+  },
+  {
+    "id": "arno_中文字体_圆体_江城圆体_江城圆体_700W",
+    "name": "江城圆体 700W",
+    "category": "圆体",
+    "originalPath": "originals/arno_中文字体_圆体_江城圆体_江城圆体_700W.ttf",
+    "optimizedPath": "subsets/arno_中文字体_圆体_江城圆体_江城圆体_700W.woff2",
+    "size": 6272
+  },
+  {
+    "id": "arno_中文字体_手写_何婷婷字体",
+    "name": "何婷婷字体",
+    "category": "手写",
+    "originalPath": "originals/arno_中文字体_手写_何婷婷字体.TTF",
+    "optimizedPath": "subsets/arno_中文字体_手写_何婷婷字体.woff2",
+    "size": 6576
+  },
+  {
+    "id": "arno_中文字体_手写_李国夫手写字体",
+    "name": "李国夫手写字体",
+    "category": "手写",
+    "originalPath": "originals/arno_中文字体_手写_李国夫手写字体.ttf",
+    "optimizedPath": "fonts/arno_中文字体_手写_李国夫手写字体.ttf",
+    "size": 3625548
+  },
+  {
+    "id": "arno_中文字体_手写_沐瑶软笔手写体",
+    "name": "沐瑶软笔手写体",
+    "category": "手写",
+    "originalPath": "originals/arno_中文字体_手写_沐瑶软笔手写体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_手写_沐瑶软笔手写体.woff2",
+    "size": 6140
+  },
+  {
+    "id": "arno_中文字体_手写_萌妹子字体(6000字)",
+    "name": "萌妹子字体(6000字)",
+    "category": "手写",
+    "originalPath": "originals/arno_中文字体_手写_萌妹子字体(6000字).ttf",
+    "optimizedPath": "fonts/arno_中文字体_手写_萌妹子字体(6000字).ttf",
+    "size": 6576256
+  },
+  {
+    "id": "arno_中文字体_手写_陈静的字完整版",
+    "name": "陈静的字完整版",
+    "category": "手写",
+    "originalPath": "originals/arno_中文字体_手写_陈静的字完整版.TTF",
+    "optimizedPath": "subsets/arno_中文字体_手写_陈静的字完整版.woff2",
+    "size": 4380
+  },
+  {
+    "id": "arno_中文字体_标题重体_优设标题黑",
+    "name": "优设标题黑",
+    "category": "标题黑",
+    "originalPath": "originals/arno_中文字体_标题重体_优设标题黑.ttf",
+    "optimizedPath": "subsets/arno_中文字体_标题重体_优设标题黑.woff2",
+    "size": 2180
+  },
+  {
+    "id": "arno_中文字体_楷书_Alimama_DongFangDaKai_Regular",
+    "name": "Alimama_DongFangDaKai_Regular",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_Alimama_DongFangDaKai_Regular.ttf",
+    "optimizedPath": "subsets/arno_中文字体_楷书_Alimama_DongFangDaKai_Regular.woff2",
+    "size": 7448
+  },
+  {
+    "id": "arno_中文字体_楷书_LXGWWenKai",
+    "name": "LXGWWenKai",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_LXGWWenKai-Regular.ttf",
+    "optimizedPath": "subsets/arno_中文字体_楷书_LXGWWenKai-Regular.woff2",
+    "size": 6020,
+    "variants": [
+      {
+        "name": "LXGWWenKai-Light",
+        "weight": "Light",
+        "originalPath": "originals/arno_中文字体_楷书_霞鹜文楷_LXGWWenKai-Light.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_霞鹜文楷_LXGWWenKai-Light.woff2",
+        "size": 6796
+      },
+      {
+        "name": "LXGWWenKai-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/arno_中文字体_楷书_LXGWWenKai-Regular.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_LXGWWenKai-Regular.woff2",
+        "size": 6020
+      },
+      {
+        "name": "LXGWWenKai-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/arno_中文字体_楷书_霞鹜文楷_LXGWWenKai-Regular.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_霞鹜文楷_LXGWWenKai-Regular.woff2",
+        "size": 6036
+      },
+      {
+        "name": "LXGWWenKai-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/arno_中文字体_楷书_LXGWWenKai-Medium.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_LXGWWenKai-Medium.woff2",
+        "size": 5780
+      },
+      {
+        "name": "LXGWWenKai-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/arno_中文字体_楷书_霞鹜文楷_LXGWWenKai-Bold.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_霞鹜文楷_LXGWWenKai-Bold.woff2",
+        "size": 5900
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_楷书_MFYanSong_Noncommercial-Regular",
+    "name": "MFYanSong_Noncommercial-Regular",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_MFYanSong_Noncommercial-Regular.ttf",
+    "optimizedPath": "subsets/arno_中文字体_楷书_MFYanSong_Noncommercial-Regular.woff2",
+    "size": 5660
+  },
+  {
+    "id": "arno_中文字体_楷书_方正宋刻本秀楷简体",
+    "name": "方正宋刻本秀楷简体",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_方正宋刻本秀楷简体.TTF",
+    "optimizedPath": "subsets/arno_中文字体_楷书_方正宋刻本秀楷简体.woff2",
+    "size": 4448
+  },
+  {
+    "id": "arno_中文字体_楷书_方正细金陵简体",
+    "name": "方正细金陵简体",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_方正细金陵简体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_楷书_方正细金陵简体.woff2",
+    "size": 5512,
+    "variants": [
+      {
+        "name": "方正细金陵简体",
+        "weight": "default",
+        "originalPath": "originals/arno_中文字体_楷书_方正细金陵简体.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_方正细金陵简体.woff2",
+        "size": 5512
+      },
+      {
+        "name": "方正细金陵简体",
+        "weight": "default",
+        "originalPath": "originals/new_方正_方正细金陵简体.ttf",
+        "optimizedPath": "subsets/new_方正_方正细金陵简体.woff2",
+        "size": 5512
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_楷书_江西拙楷2.0",
+    "name": "江西拙楷2.0",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_江西拙楷2.0.ttf",
+    "optimizedPath": "subsets/arno_中文字体_楷书_江西拙楷2.0.woff2",
+    "size": 12936
+  },
+  {
+    "id": "arno_中文字体_楷书_汉仪润圆_HYRunYuan",
+    "name": "HYRunYuan",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_汉仪润圆_HYRunYuan-35W.ttf",
+    "optimizedPath": "subsets/arno_中文字体_楷书_汉仪润圆_HYRunYuan-35W.woff2",
+    "size": 4932,
+    "variants": [
+      {
+        "name": "HYRunYuan-35W",
+        "weight": "35W",
+        "originalPath": "originals/arno_中文字体_楷书_汉仪润圆_HYRunYuan-35W.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_汉仪润圆_HYRunYuan-35W.woff2",
+        "size": 4932
+      },
+      {
+        "name": "HYRunYuan-45W",
+        "weight": "45W",
+        "originalPath": "originals/arno_中文字体_楷书_汉仪润圆_HYRunYuan-45W.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_汉仪润圆_HYRunYuan-45W.woff2",
+        "size": 5088
+      },
+      {
+        "name": "HYRunYuan-55W",
+        "weight": "55W",
+        "originalPath": "originals/arno_中文字体_楷书_汉仪润圆_HYRunYuan-55W.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_汉仪润圆_HYRunYuan-55W.woff2",
+        "size": 5128
+      },
+      {
+        "name": "HYRunYuan-65W",
+        "weight": "65W",
+        "originalPath": "originals/arno_中文字体_楷书_汉仪润圆_HYRunYuan-65W.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_汉仪润圆_HYRunYuan-65W.woff2",
+        "size": 5240
+      },
+      {
+        "name": "HYRunYuan-75W",
+        "weight": "75W",
+        "originalPath": "originals/arno_中文字体_楷书_汉仪润圆_HYRunYuan-75W.ttf",
+        "optimizedPath": "subsets/arno_中文字体_楷书_汉仪润圆_HYRunYuan-75W.woff2",
+        "size": 5268
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_楷书_行楷_演示夏行楷",
+    "name": "演示夏行楷",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_行楷_演示夏行楷.ttf",
+    "optimizedPath": "subsets/arno_中文字体_楷书_行楷_演示夏行楷.woff2",
+    "size": 9936
+  },
+  {
+    "id": "arno_中文字体_楷书_行楷_演示秋鸿楷2.0",
+    "name": "演示秋鸿楷2.0",
+    "category": "楷体",
+    "originalPath": "originals/arno_中文字体_楷书_行楷_演示秋鸿楷2.0.ttf",
+    "optimizedPath": "subsets/arno_中文字体_楷书_行楷_演示秋鸿楷2.0.woff2",
+    "size": 13404
+  },
+  {
+    "id": "arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai",
+    "name": "ToneOZ-Pinyin-WenKai",
+    "category": "特殊字体",
+    "originalPath": "originals/arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai-Regular.ttf",
+    "optimizedPath": "subsets/arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai-Regular.woff2",
+    "size": 8380,
+    "variants": [
+      {
+        "name": "ToneOZ-Pinyin-WenKai-Light",
+        "weight": "Light",
+        "originalPath": "originals/arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai-Light.ttf",
+        "optimizedPath": "subsets/arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai-Light.woff2",
+        "size": 9568
+      },
+      {
+        "name": "ToneOZ-Pinyin-WenKai-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai-Regular.ttf",
+        "optimizedPath": "subsets/arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai-Regular.woff2",
+        "size": 8380
+      },
+      {
+        "name": "ToneOZ-Pinyin-WenKai-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai-Bold.ttf",
+        "optimizedPath": "subsets/arno_中文字体_特殊字体_ToneOZ-Pinyin-WenKai-Bold.woff2",
+        "size": 8040
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_特殊字体_方正甲骨文",
+    "name": "方正甲骨文",
+    "category": "特殊字体",
+    "originalPath": "originals/arno_中文字体_特殊字体_方正甲骨文.TTF",
+    "optimizedPath": "subsets/arno_中文字体_特殊字体_方正甲骨文.woff2",
+    "size": 5040
+  },
+  {
+    "id": "arno_中文字体_特殊字体_汇文明朝体",
+    "name": "汇文明朝体",
+    "category": "特殊字体",
+    "originalPath": "originals/arno_中文字体_特殊字体_汇文明朝体.otf",
+    "optimizedPath": "subsets/arno_中文字体_特殊字体_汇文明朝体.woff2",
+    "size": 11080
+  },
+  {
+    "id": "arno_中文字体_特殊字体_美呗嘿嘿体",
+    "name": "美呗嘿嘿体",
+    "category": "特殊字体",
+    "originalPath": "originals/arno_中文字体_特殊字体_美呗嘿嘿体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_特殊字体_美呗嘿嘿体.woff2",
+    "size": 6208
+  },
+  {
+    "id": "arno_中文字体_趣味向_字帮玩酷体",
+    "name": "字帮玩酷体",
+    "category": "趣味体",
+    "originalPath": "originals/arno_中文字体_趣味向_字帮玩酷体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_趣味向_字帮玩酷体.woff2",
+    "size": 6688
+  },
+  {
+    "id": "arno_中文字体_趣味向_站酷快乐体",
+    "name": "站酷快乐体",
+    "category": "趣味体",
+    "originalPath": "originals/arno_中文字体_趣味向_站酷快乐体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_趣味向_站酷快乐体.woff2",
+    "size": 5848
+  },
+  {
+    "id": "arno_中文字体_黑体_Adobe黑体",
+    "name": "Adobe黑体",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_Adobe黑体.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_Adobe黑体.woff2",
+    "size": 12668
+  },
+  {
+    "id": "arno_中文字体_黑体_LXGWNeoXiHei",
+    "name": "LXGWNeoXiHei",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_LXGWNeoXiHei.ttf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_LXGWNeoXiHei.woff2",
+    "size": 6744,
+    "variants": [
+      {
+        "name": "LXGWNeoXiHei",
+        "weight": "default",
+        "originalPath": "originals/arno_中文字体_黑体_LXGWNeoXiHei.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_LXGWNeoXiHei.woff2",
+        "size": 6744
+      },
+      {
+        "name": "LXGWNeoXiHei",
+        "weight": "default",
+        "originalPath": "originals/new_霞鹜_LXGWNeoXiHei.ttf",
+        "optimizedPath": "subsets/new_霞鹜_LXGWNeoXiHei.woff2",
+        "size": 6764
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_黑体_MFDianHei_Noncommercial-Regular",
+    "name": "MFDianHei_Noncommercial-Regular",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_MFDianHei_Noncommercial-Regular.ttf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_MFDianHei_Noncommercial-Regular.woff2",
+    "size": 5380
+  },
+  {
+    "id": "arno_中文字体_黑体_MFYuanHei_Noncommercial-Regular",
+    "name": "MFYuanHei_Noncommercial-Regular",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_MFYuanHei_Noncommercial-Regular.ttf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_MFYuanHei_Noncommercial-Regular.woff2",
+    "size": 4908
+  },
+  {
+    "id": "arno_中文字体_黑体_摄图摩登小方体",
+    "name": "摄图摩登小方体",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_摄图摩登小方体.ttf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_摄图摩登小方体.woff2",
+    "size": 2568
+  },
+  {
+    "id": "arno_中文字体_黑体_黄煜臣拙黑",
+    "name": "黄煜臣拙黑",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_黄煜臣拙黑.ttf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_黄煜臣拙黑.woff2",
+    "size": 12336
+  },
+  {
+    "id": "arno_中文字体_黑体_HONORSansCN",
+    "name": "HONORSansCN",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Regular.ttf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Regular.woff2",
+    "size": 3416,
+    "variants": [
+      {
+        "name": "HONORSansCN-Thin",
+        "weight": "Thin",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Thin.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Thin.woff2",
+        "size": 3416
+      },
+      {
+        "name": "HONORSansCN-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-ExtraLight.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-ExtraLight.woff2",
+        "size": 3424
+      },
+      {
+        "name": "HONORSansCN-Light",
+        "weight": "Light",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Light.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Light.woff2",
+        "size": 3440
+      },
+      {
+        "name": "HONORSansCN-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Regular.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Regular.woff2",
+        "size": 3416
+      },
+      {
+        "name": "HONORSansCN-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Medium.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Medium.woff2",
+        "size": 3424
+      },
+      {
+        "name": "HONORSansCN-DemiBold",
+        "weight": "DemiBold",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-DemiBold.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-DemiBold.woff2",
+        "size": 3388
+      },
+      {
+        "name": "HONORSansCN-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Bold.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Bold.woff2",
+        "size": 3440
+      },
+      {
+        "name": "HONORSansCN-ExtraBold",
+        "weight": "ExtraBold",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-ExtraBold.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-ExtraBold.woff2",
+        "size": 3396
+      },
+      {
+        "name": "HONORSansCN-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Heavy.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_HONORSansCN_HONORSansCN-Heavy.woff2",
+        "size": 3440
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_黑体_思源黑体_SourceHanSansCN",
+    "name": "SourceHanSansCN",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Regular.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Regular.woff2",
+    "size": 9100,
+    "variants": [
+      {
+        "name": "SourceHanSansCN-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/arno_中文字体_黑体_思源黑体_SourceHanSansCN-ExtraLight.otf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_思源黑体_SourceHanSansCN-ExtraLight.woff2",
+        "size": 9144
+      },
+      {
+        "name": "SourceHanSansCN-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-ExtraLight.otf",
+        "optimizedPath": "subsets/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-ExtraLight.woff2",
+        "size": 8148
+      },
+      {
+        "name": "SourceHanSansCN-Light",
+        "weight": "Light",
+        "originalPath": "originals/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Light.otf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Light.woff2",
+        "size": 9144
+      },
+      {
+        "name": "SourceHanSansCN-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Light.otf",
+        "optimizedPath": "subsets/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Light.woff2",
+        "size": 8300
+      },
+      {
+        "name": "SourceHanSansCN-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Regular.otf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Regular.woff2",
+        "size": 9100
+      },
+      {
+        "name": "SourceHanSansCN-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Regular.otf",
+        "optimizedPath": "subsets/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Regular.woff2",
+        "size": 8376
+      },
+      {
+        "name": "SourceHanSansCN-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Normal.otf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Normal.woff2",
+        "size": 9104
+      },
+      {
+        "name": "SourceHanSansCN-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Normal.otf",
+        "optimizedPath": "subsets/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Normal.woff2",
+        "size": 8320
+      },
+      {
+        "name": "SourceHanSansCN-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Medium.otf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Medium.woff2",
+        "size": 9112
+      },
+      {
+        "name": "SourceHanSansCN-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Medium.otf",
+        "optimizedPath": "subsets/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Medium.woff2",
+        "size": 8376
+      },
+      {
+        "name": "SourceHanSansCN-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Bold.otf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Bold.woff2",
+        "size": 9200
+      },
+      {
+        "name": "SourceHanSansCN-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Bold.otf",
+        "optimizedPath": "subsets/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Bold.woff2",
+        "size": 8396
+      },
+      {
+        "name": "SourceHanSansCN-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Heavy.otf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_思源黑体_SourceHanSansCN-Heavy.woff2",
+        "size": 9188
+      },
+      {
+        "name": "SourceHanSansCN-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Heavy.otf",
+        "optimizedPath": "subsets/new_思源_思源黑体-简体中文（行高修正版）—_100font.com_SourceHanSansCN-Heavy.woff2",
+        "size": 8376
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030",
+    "name": "FZLTHPro_GB18030",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030.woff2",
+    "size": 5000
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Cu",
+    "name": "FZLTHPro_GB18030_Cu",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Cu.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Cu.woff2",
+    "size": 4876
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Da",
+    "name": "FZLTHPro_GB18030_Da",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Da.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Da.woff2",
+    "size": 5072
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Te",
+    "name": "FZLTHPro_GB18030_Te",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Te.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Te.woff2",
+    "size": 4980
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xi",
+    "name": "FZLTHPro_GB18030_Xi",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xi.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xi.woff2",
+    "size": 5156
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xian",
+    "name": "FZLTHPro_GB18030_Xian",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xian.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xian.woff2",
+    "size": 4996
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhong",
+    "name": "FZLTHPro_GB18030_Zhong",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhong.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhong.woff2",
+    "size": 4996
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_ZhongCu",
+    "name": "FZLTHPro_GB18030_ZhongCu",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_ZhongCu.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_ZhongCu.woff2",
+    "size": 5068
+  },
+  {
+    "id": "arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhun",
+    "name": "FZLTHPro_GB18030_Zhun",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhun.otf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhun.woff2",
+    "size": 4972
+  },
+  {
+    "id": "arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT",
+    "name": "TsangerYuYangT",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W01.ttf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W01.woff2",
+    "size": 3112,
+    "variants": [
+      {
+        "name": "TsangerYuYangT-W01",
+        "weight": "W01",
+        "originalPath": "originals/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W01.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W01.woff2",
+        "size": 3112
+      },
+      {
+        "name": "TsangerYuYangT-W02",
+        "weight": "W02",
+        "originalPath": "originals/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W02.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W02.woff2",
+        "size": 3136
+      },
+      {
+        "name": "TsangerYuYangT-W03",
+        "weight": "W03",
+        "originalPath": "originals/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W03.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W03.woff2",
+        "size": 3172
+      },
+      {
+        "name": "TsangerYuYangT-W04",
+        "weight": "W04",
+        "originalPath": "originals/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W04.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W04.woff2",
+        "size": 3164
+      },
+      {
+        "name": "TsangerYuYangT-W05",
+        "weight": "W05",
+        "originalPath": "originals/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W05.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT-W05.woff2",
+        "size": 3168
+      }
+    ]
+  },
+  {
+    "id": "arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi",
+    "name": "Alibaba-PuHuiTi",
+    "category": "黑体",
+    "originalPath": "originals/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Regular.ttf",
+    "optimizedPath": "subsets/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Regular.woff2",
+    "size": 4800,
+    "variants": [
+      {
+        "name": "Alibaba-PuHuiTi-Thin",
+        "weight": "Thin",
+        "originalPath": "originals/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Thin.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Thin.woff2",
+        "size": 4560
+      },
+      {
+        "name": "Alibaba-PuHuiTi-Light",
+        "weight": "Light",
+        "originalPath": "originals/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Light.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Light.woff2",
+        "size": 4640
+      },
+      {
+        "name": "Alibaba-PuHuiTi-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Regular.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Regular.woff2",
+        "size": 4800
+      },
+      {
+        "name": "Alibaba-PuHuiTi-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Medium.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Medium.woff2",
+        "size": 4656
+      },
+      {
+        "name": "Alibaba-PuHuiTi-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Bold.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Bold.woff2",
+        "size": 4760
+      },
+      {
+        "name": "Alibaba-PuHuiTi-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Heavy.ttf",
+        "optimizedPath": "subsets/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Heavy.woff2",
+        "size": 4516
+      }
+    ]
+  },
+  {
+    "id": "arno_像素字体_凤凰点阵体_12px",
+    "name": "凤凰点阵体 12px",
+    "category": "像素字体",
+    "originalPath": "originals/arno_像素字体_凤凰点阵体_12px.ttf",
+    "optimizedPath": "subsets/arno_像素字体_凤凰点阵体_12px.woff2",
+    "size": 1688
+  },
+  {
+    "id": "arno_像素字体_凤凰点阵体_16px",
+    "name": "凤凰点阵体 16px",
+    "category": "像素字体",
+    "originalPath": "originals/arno_像素字体_凤凰点阵体_16px.ttf",
+    "optimizedPath": "subsets/arno_像素字体_凤凰点阵体_16px.woff2",
+    "size": 1760
+  },
+  {
+    "id": "arno_数字字体_BebasNeue",
+    "name": "BebasNeue",
+    "category": "西文",
+    "originalPath": "originals/arno_数字字体_BebasNeue.otf",
+    "optimizedPath": "subsets/arno_数字字体_BebasNeue.woff2",
+    "size": 3492
+  },
+  {
+    "id": "arno_数字字体_DigitalNumbers",
+    "name": "DigitalNumbers",
+    "category": "西文",
+    "originalPath": "originals/arno_数字字体_DigitalNumbers.ttf",
+    "optimizedPath": "subsets/arno_数字字体_DigitalNumbers.woff2",
+    "size": 948
+  },
+  {
+    "id": "arno_数字字体_UniversLTStd-UltraCn",
+    "name": "UniversLTStd-UltraCn",
+    "category": "西文",
+    "originalPath": "originals/arno_数字字体_UniversLTStd-UltraCn.otf",
+    "optimizedPath": "subsets/arno_数字字体_UniversLTStd-UltraCn.woff2",
+    "size": 2984
+  },
+  {
+    "id": "arno_数字字体_din_pro_DINPro",
+    "name": "DINPro",
+    "category": "西文",
+    "originalPath": "originals/arno_数字字体_din_pro_DINPro-Regular.otf",
+    "optimizedPath": "subsets/arno_数字字体_din_pro_DINPro-Regular.woff2",
+    "size": 3032,
+    "variants": [
+      {
+        "name": "DINPro-Light",
+        "weight": "Light",
+        "originalPath": "originals/arno_数字字体_din_pro_DINPro-Light.otf",
+        "optimizedPath": "subsets/arno_数字字体_din_pro_DINPro-Light.woff2",
+        "size": 3088
+      },
+      {
+        "name": "DINPro-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/arno_数字字体_din_pro_DINPro-Regular.otf",
+        "optimizedPath": "subsets/arno_数字字体_din_pro_DINPro-Regular.woff2",
+        "size": 3032
+      },
+      {
+        "name": "DINPro-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/arno_数字字体_din_pro_DINPro-Medium.otf",
+        "optimizedPath": "subsets/arno_数字字体_din_pro_DINPro-Medium.woff2",
+        "size": 3124
+      },
+      {
+        "name": "DINPro-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/arno_数字字体_din_pro_DINPro-Bold.otf",
+        "optimizedPath": "subsets/arno_数字字体_din_pro_DINPro-Bold.woff2",
+        "size": 3128
+      },
+      {
+        "name": "DINPro-Black",
+        "weight": "Black",
+        "originalPath": "originals/arno_数字字体_din_pro_DINPro-Black.otf",
+        "optimizedPath": "subsets/arno_数字字体_din_pro_DINPro-Black.woff2",
+        "size": 3072
+      }
+    ]
+  },
+  {
+    "id": "arno_数字字体_Fjalla_One_FjallaOne-Regular",
+    "name": "FjallaOne-Regular",
+    "category": "西文",
+    "originalPath": "originals/arno_数字字体_Fjalla_One_FjallaOne-Regular.ttf",
+    "optimizedPath": "subsets/arno_数字字体_Fjalla_One_FjallaOne-Regular.woff2",
+    "size": 4356
+  },
+  {
+    "id": "arno_英文字体_serif_Book_Antiqua",
+    "name": "Book Antiqua",
+    "category": "西文",
+    "originalPath": "originals/arno_英文字体_serif_Book_Antiqua.TTF",
+    "optimizedPath": "subsets/arno_英文字体_serif_Book_Antiqua.woff2",
+    "size": 9216
+  },
+  {
+    "id": "arno_英文字体_特殊_提瓦特语",
+    "name": "提瓦特语",
+    "category": "西文",
+    "originalPath": "originals/arno_英文字体_特殊_提瓦特语.otf",
+    "optimizedPath": "subsets/arno_英文字体_特殊_提瓦特语.woff2",
+    "size": 4448
+  },
+  {
+    "id": "new_Inkfree",
+    "name": "Inkfree",
+    "category": "西文",
+    "originalPath": "originals/new_Inkfree.ttf",
+    "optimizedPath": "subsets/new_Inkfree.woff2",
+    "size": 2596
+  },
+  {
+    "id": "new_SmileySans-Oblique",
+    "name": "SmileySans-Oblique",
+    "category": "黑体",
+    "originalPath": "originals/new_SmileySans-Oblique.ttf",
+    "optimizedPath": "subsets/new_SmileySans-Oblique.woff2",
+    "size": 4924
+  },
+  {
+    "id": "new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN",
+    "name": "SourceHanSerifCN",
+    "category": "宋体",
+    "originalPath": "originals/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Regular.otf",
+    "optimizedPath": "subsets/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Regular.woff2",
+    "size": 11596,
+    "variants": [
+      {
+        "name": "SourceHanSerifCN-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-ExtraLight.otf",
+        "optimizedPath": "subsets/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-ExtraLight.woff2",
+        "size": 11772
+      },
+      {
+        "name": "SourceHanSerifCN-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Light.otf",
+        "optimizedPath": "subsets/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Light.woff2",
+        "size": 11788
+      },
+      {
+        "name": "SourceHanSerifCN-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Regular.otf",
+        "optimizedPath": "subsets/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Regular.woff2",
+        "size": 11596
+      },
+      {
+        "name": "SourceHanSerifCN-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Medium.otf",
+        "optimizedPath": "subsets/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Medium.woff2",
+        "size": 11668
+      },
+      {
+        "name": "SourceHanSerifCN-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Bold.otf",
+        "optimizedPath": "subsets/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Bold.woff2",
+        "size": 11696
+      },
+      {
+        "name": "SourceHanSerifCN-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Heavy.otf",
+        "optimizedPath": "subsets/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-Heavy.woff2",
+        "size": 11536
+      },
+      {
+        "name": "SourceHanSerifCN-SemiBold",
+        "weight": "SemiBold",
+        "originalPath": "originals/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-SemiBold.otf",
+        "optimizedPath": "subsets/new_思源_思源宋体-简体中文-100font.com_SourceHanSerifCN-SemiBold.woff2",
+        "size": 11748
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL",
+    "name": "GenJyuuGothicL",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Regular.woff2",
+    "size": 4780,
+    "variants": [
+      {
+        "name": "GenJyuuGothicL-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-ExtraLight.woff2",
+        "size": 4568
+      },
+      {
+        "name": "GenJyuuGothicL-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Light.woff2",
+        "size": 4724
+      },
+      {
+        "name": "GenJyuuGothicL-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Regular.woff2",
+        "size": 4780
+      },
+      {
+        "name": "GenJyuuGothicL-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Normal.woff2",
+        "size": 4740
+      },
+      {
+        "name": "GenJyuuGothicL-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Medium.woff2",
+        "size": 4752
+      },
+      {
+        "name": "GenJyuuGothicL-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Bold.woff2",
+        "size": 4868
+      },
+      {
+        "name": "GenJyuuGothicL-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Heavy.woff2",
+        "size": 4824
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace",
+    "name": "GenJyuuGothicL-Monospace",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Regular.woff2",
+    "size": 4780,
+    "variants": [
+      {
+        "name": "GenJyuuGothicL-Monospace-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-ExtraLight.woff2",
+        "size": 4600
+      },
+      {
+        "name": "GenJyuuGothicL-Monospace-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Light.woff2",
+        "size": 4700
+      },
+      {
+        "name": "GenJyuuGothicL-Monospace-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Regular.woff2",
+        "size": 4780
+      },
+      {
+        "name": "GenJyuuGothicL-Monospace-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Normal.woff2",
+        "size": 4748
+      },
+      {
+        "name": "GenJyuuGothicL-Monospace-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Medium.woff2",
+        "size": 4780
+      },
+      {
+        "name": "GenJyuuGothicL-Monospace-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Bold.woff2",
+        "size": 4804
+      },
+      {
+        "name": "GenJyuuGothicL-Monospace-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-Monospace-Heavy.woff2",
+        "size": 4844
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P",
+    "name": "GenJyuuGothicL-P",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Regular.woff2",
+    "size": 4752,
+    "variants": [
+      {
+        "name": "GenJyuuGothicL-P-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-ExtraLight.woff2",
+        "size": 4624
+      },
+      {
+        "name": "GenJyuuGothicL-P-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Light.woff2",
+        "size": 4716
+      },
+      {
+        "name": "GenJyuuGothicL-P-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Regular.woff2",
+        "size": 4752
+      },
+      {
+        "name": "GenJyuuGothicL-P-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Normal.woff2",
+        "size": 4720
+      },
+      {
+        "name": "GenJyuuGothicL-P-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Medium.woff2",
+        "size": 4780
+      },
+      {
+        "name": "GenJyuuGothicL-P-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Bold.woff2",
+        "size": 4828
+      },
+      {
+        "name": "GenJyuuGothicL-P-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_L版_GenJyuuGothicL-P-Heavy.woff2",
+        "size": 4880
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX",
+    "name": "GenJyuuGothicX",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Regular.woff2",
+    "size": 4764,
+    "variants": [
+      {
+        "name": "GenJyuuGothicX-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-ExtraLight.woff2",
+        "size": 4608
+      },
+      {
+        "name": "GenJyuuGothicX-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Light.woff2",
+        "size": 4728
+      },
+      {
+        "name": "GenJyuuGothicX-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Regular.woff2",
+        "size": 4764
+      },
+      {
+        "name": "GenJyuuGothicX-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Normal.woff2",
+        "size": 4716
+      },
+      {
+        "name": "GenJyuuGothicX-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Medium.woff2",
+        "size": 4856
+      },
+      {
+        "name": "GenJyuuGothicX-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Bold.woff2",
+        "size": 4940
+      },
+      {
+        "name": "GenJyuuGothicX-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Heavy.woff2",
+        "size": 5032
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace",
+    "name": "GenJyuuGothicX-Monospace",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Regular.woff2",
+    "size": 4792,
+    "variants": [
+      {
+        "name": "GenJyuuGothicX-Monospace-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-ExtraLight.woff2",
+        "size": 4596
+      },
+      {
+        "name": "GenJyuuGothicX-Monospace-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Light.woff2",
+        "size": 4756
+      },
+      {
+        "name": "GenJyuuGothicX-Monospace-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Regular.woff2",
+        "size": 4792
+      },
+      {
+        "name": "GenJyuuGothicX-Monospace-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Normal.woff2",
+        "size": 4728
+      },
+      {
+        "name": "GenJyuuGothicX-Monospace-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Medium.woff2",
+        "size": 4876
+      },
+      {
+        "name": "GenJyuuGothicX-Monospace-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Bold.woff2",
+        "size": 4908
+      },
+      {
+        "name": "GenJyuuGothicX-Monospace-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-Monospace-Heavy.woff2",
+        "size": 5000
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P",
+    "name": "GenJyuuGothicX-P",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Regular.woff2",
+    "size": 4708,
+    "variants": [
+      {
+        "name": "GenJyuuGothicX-P-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-ExtraLight.woff2",
+        "size": 4624
+      },
+      {
+        "name": "GenJyuuGothicX-P-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Light.woff2",
+        "size": 4784
+      },
+      {
+        "name": "GenJyuuGothicX-P-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Regular.woff2",
+        "size": 4708
+      },
+      {
+        "name": "GenJyuuGothicX-P-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Normal.woff2",
+        "size": 4696
+      },
+      {
+        "name": "GenJyuuGothicX-P-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Medium.woff2",
+        "size": 4864
+      },
+      {
+        "name": "GenJyuuGothicX-P-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Bold.woff2",
+        "size": 4964
+      },
+      {
+        "name": "GenJyuuGothicX-P-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_X版_GenJyuuGothicX-P-Heavy.woff2",
+        "size": 5060
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic",
+    "name": "GenJyuuGothic",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Regular.woff2",
+    "size": 4720,
+    "variants": [
+      {
+        "name": "GenJyuuGothic-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-ExtraLight.woff2",
+        "size": 4576
+      },
+      {
+        "name": "GenJyuuGothic-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Light.woff2",
+        "size": 4748
+      },
+      {
+        "name": "GenJyuuGothic-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Regular.woff2",
+        "size": 4720
+      },
+      {
+        "name": "GenJyuuGothic-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Normal.woff2",
+        "size": 4724
+      },
+      {
+        "name": "GenJyuuGothic-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Medium.woff2",
+        "size": 4868
+      },
+      {
+        "name": "GenJyuuGothic-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Bold.woff2",
+        "size": 4960
+      },
+      {
+        "name": "GenJyuuGothic-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Heavy.woff2",
+        "size": 5044
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace",
+    "name": "GenJyuuGothic-Monospace",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Regular.woff2",
+    "size": 4772,
+    "variants": [
+      {
+        "name": "GenJyuuGothic-Monospace-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-ExtraLight.woff2",
+        "size": 4544
+      },
+      {
+        "name": "GenJyuuGothic-Monospace-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Light.woff2",
+        "size": 4712
+      },
+      {
+        "name": "GenJyuuGothic-Monospace-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Regular.woff2",
+        "size": 4772
+      },
+      {
+        "name": "GenJyuuGothic-Monospace-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Normal.woff2",
+        "size": 4724
+      },
+      {
+        "name": "GenJyuuGothic-Monospace-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Medium.woff2",
+        "size": 4828
+      },
+      {
+        "name": "GenJyuuGothic-Monospace-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Bold.woff2",
+        "size": 4956
+      },
+      {
+        "name": "GenJyuuGothic-Monospace-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-Monospace-Heavy.woff2",
+        "size": 4992
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P",
+    "name": "GenJyuuGothic-P",
+    "category": "圆体",
+    "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Regular.ttf",
+    "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Regular.woff2",
+    "size": 4684,
+    "variants": [
+      {
+        "name": "GenJyuuGothic-P-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-ExtraLight.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-ExtraLight.woff2",
+        "size": 4600
+      },
+      {
+        "name": "GenJyuuGothic-P-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Light.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Light.woff2",
+        "size": 4692
+      },
+      {
+        "name": "GenJyuuGothic-P-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Regular.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Regular.woff2",
+        "size": 4684
+      },
+      {
+        "name": "GenJyuuGothic-P-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Normal.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Normal.woff2",
+        "size": 4732
+      },
+      {
+        "name": "GenJyuuGothic-P-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Medium.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Medium.woff2",
+        "size": 4868
+      },
+      {
+        "name": "GenJyuuGothic-P-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Bold.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Bold.woff2",
+        "size": 4960
+      },
+      {
+        "name": "GenJyuuGothic-P-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Heavy.ttf",
+        "optimizedPath": "subsets/new_思源_思源柔黑体-100font.com_思源柔黑体_标准版_GenJyuuGothic-P-Heavy.woff2",
+        "size": 5040
+      }
+    ]
+  },
+  {
+    "id": "new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC",
+    "name": "SourceHanMonoSC",
+    "category": "等宽",
+    "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Regular.otf",
+    "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Regular.woff2",
+    "size": 10608,
+    "variants": [
+      {
+        "name": "SourceHanMonoSC-ExtraLight",
+        "weight": "ExtraLight",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-ExtraLight.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-ExtraLight.woff2",
+        "size": 10560
+      },
+      {
+        "name": "SourceHanMonoSC-Light",
+        "weight": "Light",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Light.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Light.woff2",
+        "size": 10624
+      },
+      {
+        "name": "SourceHanMonoSC-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Regular.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Regular.woff2",
+        "size": 10608
+      },
+      {
+        "name": "SourceHanMonoSC-Normal",
+        "weight": "Normal",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Normal.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Normal.woff2",
+        "size": 10616
+      },
+      {
+        "name": "SourceHanMonoSC-Medium",
+        "weight": "Medium",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Medium.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Medium.woff2",
+        "size": 10532
+      },
+      {
+        "name": "SourceHanMonoSC-Bold",
+        "weight": "Bold",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Bold.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Bold.woff2",
+        "size": 10496
+      },
+      {
+        "name": "SourceHanMonoSC-Heavy",
+        "weight": "Heavy",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Heavy.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-Heavy.woff2",
+        "size": 10404
+      },
+      {
+        "name": "SourceHanMonoSC-BoldIt",
+        "weight": "BoldIt",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-BoldIt.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-BoldIt.woff2",
+        "size": 9260
+      },
+      {
+        "name": "SourceHanMonoSC-ExtraLightIt",
+        "weight": "ExtraLightIt",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-ExtraLightIt.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-ExtraLightIt.woff2",
+        "size": 9300
+      },
+      {
+        "name": "SourceHanMonoSC-HeavyIt",
+        "weight": "HeavyIt",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-HeavyIt.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-HeavyIt.woff2",
+        "size": 9088
+      },
+      {
+        "name": "SourceHanMonoSC-LightIt",
+        "weight": "LightIt",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-LightIt.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-LightIt.woff2",
+        "size": 9284
+      },
+      {
+        "name": "SourceHanMonoSC-MediumIt",
+        "weight": "MediumIt",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-MediumIt.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-MediumIt.woff2",
+        "size": 9200
+      },
+      {
+        "name": "SourceHanMonoSC-NormalIt",
+        "weight": "NormalIt",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-NormalIt.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-NormalIt.woff2",
+        "size": 9328
+      },
+      {
+        "name": "SourceHanMonoSC-RegularIt",
+        "weight": "RegularIt",
+        "originalPath": "originals/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-RegularIt.otf",
+        "optimizedPath": "subsets/new_思源_思源等宽（SourceHanMonoSC）简体中文_字体文件_SourceHanMonoSC-RegularIt.woff2",
+        "size": 9268
+      }
+    ]
+  },
+  {
+    "id": "new_拉丁文_LaborUnion-Regular",
+    "name": "LaborUnion-Regular",
+    "category": "西文",
+    "originalPath": "originals/new_拉丁文_LaborUnion-Regular.otf",
+    "optimizedPath": "subsets/new_拉丁文_LaborUnion-Regular.woff2",
+    "size": 1956
+  },
+  {
+    "id": "new_方正_方正书宋简体",
+    "name": "方正书宋简体",
+    "category": "宋体",
+    "originalPath": "originals/new_方正_方正书宋简体.ttf",
+    "optimizedPath": "subsets/new_方正_方正书宋简体.woff2",
+    "size": 3116
+  },
+  {
+    "id": "new_方正_方正仿宋简体",
+    "name": "方正仿宋简体",
+    "category": "仿宋",
+    "originalPath": "originals/new_方正_方正仿宋简体.TTF",
+    "optimizedPath": "subsets/new_方正_方正仿宋简体.woff2",
+    "size": 3636
+  },
+  {
+    "id": "new_方正_方正黑体简体",
+    "name": "方正黑体简体",
+    "category": "黑体",
+    "originalPath": "originals/new_方正_方正黑体简体.TTF",
+    "optimizedPath": "subsets/new_方正_方正黑体简体.woff2",
+    "size": 3092
+  },
+  {
+    "id": "new_站酷_站酷快乐体2016修订版",
+    "name": "站酷快乐体2016修订版",
+    "category": "手写",
+    "originalPath": "originals/new_站酷_站酷快乐体2016修订版.ttf",
+    "optimizedPath": "subsets/new_站酷_站酷快乐体2016修订版.woff2",
+    "size": 3000
+  },
+  {
+    "id": "new_花体_setofont",
+    "name": "setofont",
+    "category": "艺术字体",
+    "originalPath": "originals/new_花体_setofont.ttf",
+    "optimizedPath": "subsets/new_花体_setofont.woff2",
+    "size": 3716
+  },
+  {
+    "id": "new_花体_SoukouMincho-2",
+    "name": "SoukouMincho-2",
+    "category": "艺术字体",
+    "originalPath": "originals/new_花体_SoukouMincho-2.ttf",
+    "optimizedPath": "subsets/new_花体_SoukouMincho-2.woff2",
+    "size": 24432
+  },
+  {
+    "id": "new_阿里妈妈东方大楷_AlimamaDongFangDaKai",
+    "name": "AlimamaDongFangDaKai",
+    "category": "楷体",
+    "originalPath": "originals/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.otf",
+    "optimizedPath": "subsets/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.woff2",
+    "size": 7992,
+    "variants": [
+      {
+        "name": "AlimamaDongFangDaKai-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.otf",
+        "optimizedPath": "subsets/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.woff2",
+        "size": 7992
+      },
+      {
+        "name": "AlimamaDongFangDaKai-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.ttf",
+        "optimizedPath": "subsets/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.woff2",
+        "size": 7428
+      },
+      {
+        "name": "AlimamaDongFangDaKai-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.woff",
+        "optimizedPath": "subsets/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.woff2",
+        "size": 7992
+      },
+      {
+        "name": "AlimamaDongFangDaKai-Regular",
+        "weight": "Regular",
+        "originalPath": "originals/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.woff2",
+        "optimizedPath": "subsets/new_阿里妈妈东方大楷_AlimamaDongFangDaKai-Regular.woff2",
+        "size": 7992
+      }
+    ]
+  }
+]
