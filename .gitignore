@@ -5,8 +5,6 @@ dist
 .vscode
 .idea
 public/originals
-public/subsets
-public/fonts
 字体库/
 
 .workbuddy/

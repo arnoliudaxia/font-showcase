@@ -1,19 +1,15 @@
-# Arno 字体库展示
+# 字体库展示
 
-一个基于 **Vue 3 + Vite** 的字体展示应用，用于以卡片形式浏览、预览和下载字体文件。支持字体重量子集化压缩、家族字重合并、实时预览和分类筛选。
-
-## 在线预览
-
-> 部署后即可通过浏览器访问，所有字体数据通过 `fonts-config.json` 动态加载。
+一个基于 **Vue 3 + Vite** 的字体展示应用，用于以卡片形式浏览、预览和下载字体文件。支持多级分类树、字体重量子集化压缩、家族字重合并、实时预览和 CDN 原始文件下载。
 
 ## 核心功能
 
-- **字体卡片网格**：每款字体独立成卡，自动按家族合并多字重版本（如 Alibaba-PuHuiTi、思源黑体等）。
+- **多级分类树**：分类直接映射 `字体库/` 目录的文件夹层级（如 `中文字体/黑体/思源黑体`），支持面包屑导航与逐层筛选。
+- **字体卡片网格**：每款字体独立成卡，自动按家族合并多字重版本（如 Alibaba-PuHuiTi、HONORSansCN、思源黑体等）。
 - **子集化预览**：使用 `fontTools.subset` 将每款字体裁剪为仅含固定预览字符的 WOFF2 子集，大幅缩减加载体积。
-- **动态加载配置**：运行时通过 `fetch('/fonts-config.json')` 读取字体列表，无需重新打包即可增删或调整字体。
-- **搜索与筛选**：支持按字体名称搜索、按风格分类（黑体/圆体/楷体/手写等）筛选。
+- **静态数据构建**：字体列表在构建时通过 `src/fonts.json` 静态导入，保证首屏加载速度和确定性。
 - **自定义预览文字**：顶部输入框可实时修改所有卡片的预览内容。
-- **一键下载**：每张卡片提供下载按钮，可获取字体的**完整原始文件**。
+- **一键下载原始字体**：下载按钮直接指向 CDN 直链，不占用仓库与部署包体积。
 
 ## 技术栈
 
@@ -25,18 +21,22 @@
 
 ```
 font-showcase/
+├── 字体库/                      # 本地字体源目录（仅用于生成子集，不提交到 Git）
+│   ├── 中文字体/
+│   ├── 英文字体/
+│   ├── 思源/
+│   └── ...
 ├── public/
-│   ├── fonts-config.json       # 运行时字体配置文件（由脚本自动生成）
-│   ├── subsets/                # 子集化后的 WOFF2 字体（预览用）
-│   ├── originals/              # 原始完整字体文件（下载用）
-│   └── fonts/                  # 子集化失败时的回退字体
+│   ├── subsets/                 # 子集化后的 WOFF2 字体（预览用）
+│   ├── fonts/                   # 子集化失败时的回退字体
+│   └── fonts-config.json        # 历史遗留的运行时配置（可选）
 ├── scripts/
-│   └── generate-font-data.py   # 字体扫描、子集化、配置生成脚本
+│   └── generate-font-data.py    # 扫描 字体库/、生成子集、输出 src/fonts.json
 ├── src/
 │   ├── components/
-│   │   └── FontCard.vue        # 字体卡片组件
-│   ├── App.vue                 # 主页面（搜索/筛选/网格布局）
-│   ├── fonts.json              # 构建时备份的配置副本
+│   │   └── FontCard.vue         # 字体卡片组件
+│   ├── App.vue                  # 主页面（搜索 / 分类树 / 网格布局）
+│   ├── fonts.json               # 构建时静态导入的字体数据源
 │   └── main.js
 ├── index.html
 └── package.json
@@ -67,52 +67,69 @@ npm run build
 
 ## 添加新字体
 
-1. 将字体文件（`.ttf` / `.otf` / `.woff` / `.woff2`）放入任意一个脚本已配置的源目录中（默认为 `Arno字体库` 和 `E:\下载\font等122个文件\font`）。
-2. 运行生成脚本：
+### 步骤 1：放入本地源目录
+
+将字体文件（`.ttf` / `.otf` / `.woff` / `.woff2`）放入 `字体库/` 下的任意子目录中。目录层级即为网页上的分类层级。
+
+### 步骤 2：运行生成脚本
 
 ```bash
 python scripts/generate-font-data.py
 ```
 
 脚本会自动完成：
-- 扫描新增字体
+- 扫描 `字体库/` 下的全部字体
 - 生成 WOFF2 子集到 `public/subsets/`
-- 复制原始文件到 `public/originals/`
-- 更新 `public/fonts-config.json` 和 `src/fonts.json`
+- 对子集化失败的字体回退到 `public/fonts/`
+- 更新 `src/fonts.json`，并将 `originalPath` 自动映射为 CDN 直链
 
-3. 重新构建前端：
+### 步骤 3：上传原始字体到 CDN
+
+当前 `originalPath` 的 CDN 基础地址为：
+
+```
+https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/
+```
+
+你需要将 `字体库/` 中的原始字体文件按**相同的相对目录结构**上传到该 CDN 空间。例如：
+
+- 本地：`字体库/英文字体/手写/Inkfree.ttf`
+- CDN：`https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/Inkfree.ttf`
+
+### 步骤 4：重新构建前端
 
 ```bash
 npm run build
 ```
 
-## 配置说明
+## 数据格式说明
 
-`public/fonts-config.json` 是应用运行时的唯一数据源，单条记录格式如下：
+`src/fonts.json` 是应用构建时的唯一数据源，单条记录格式如下：
 
 ```json
 {
-  "id": "arno_中文字体_黑体_Alibaba-PuHuiTi",
-  "name": "Alibaba-PuHuiTi",
-  "category": "黑体",
-  "originalPath": "originals/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Regular.ttf",
-  "optimizedPath": "subsets/arno_中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Regular.woff2",
-  "size": 4800,
+  "id": "中文字体_黑体_HONORSansCN-Regular",
+  "name": "HONORSansCN-Regular",
+  "category": "中文字体/黑体/HONORSansCN",
+  "originalPath": "https://1812331343.v.123pan.cn/.../HONORSansCN-Regular.ttf",
+  "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-Regular.woff2",
+  "size": 4872,
   "variants": [
     {
-      "name": "Alibaba-PuHuiTi-Bold",
+      "name": "HONORSansCN-Bold",
       "weight": "Bold",
-      "originalPath": "originals/...",
-      "optimizedPath": "subsets/...",
-      "size": 4760
+      "originalPath": "https://1812331343.v.123pan.cn/.../HONORSansCN-Bold.ttf",
+      "subsetPath": "subsets/...",
+      "size": 4896
     }
   ]
 }
 ```
 
 字段说明：
-- `originalPath`：完整字体文件的下载路径
-- `optimizedPath`：轻量子集字体的预览路径
+- `category`：多级分类路径，对应 `字体库/` 的目录层级
+- `originalPath`：完整原始字体文件的 CDN 下载链接
+- `subsetPath`：轻量子集字体的本地预览路径
 - `variants`：同系列不同字重的变体列表（单字重字体无此字段）
 
 ## 部署到 GitHub Pages
@@ -132,7 +149,7 @@ git push -f origin gh-pages
 
 ### 方式二：GitHub Actions 自动部署
 
-在仓库中创建 `.github/workflows/deploy.yml`，参考配置：
+在仓库中创建 `.github/workflows/deploy.yml`：
 
 ```yaml
 name: Deploy to GitHub Pages
@@ -157,24 +174,12 @@ jobs:
           publish_dir: ./dist
 ```
 
-> **注意**：GitHub Pages 默认不发布以 `_` 开头的文件或路径。如果你的构建产物中有这类文件，可能需要关闭 Jekyll（在 `public` 下放置一个空文件 `.nojekyll`）。
-
-## 分类规则
-
-当前应用支持以下字体风格分类：
-
-- 黑体、圆体、楷体、宋体、仿宋
-- 手写、书法
-- 西文、等宽
-- 像素字体、艺术字体
-- 特殊字体、趣味体、标题黑
-
-分类由 `scripts/generate-font-data.py` 中的 `classify_font()` 函数根据**文件路径和字体名称**自动推断。
+> **注意**：GitHub Pages 默认不发布以 `_` 开头的文件或路径。如果构建产物中有这类文件，建议在 `public` 下放置一个空文件 `.nojekyll`。
 
 ## 版权与许可
 
 - **本项目代码**：MIT License（可自由修改和分发）。
-- **字体文件**：本仓库中所有 `.ttf` / `.otf` / `.woff2` 字体文件版权归原作者所有，仅供个人学习与交流使用。如需商用，请遵守各字体自身的授权协议（如 SIL Open Font License、方正字库授权协议、阿里普惠体商用协议等）。
+- **字体文件**：本仓库及 CDN 上所有 `.ttf` / `.otf` / `.woff2` 字体文件版权归原作者所有，仅供个人学习与交流使用。如需商用，请遵守各字体自身的授权协议（如 SIL Open Font License、方正字库授权协议、阿里普惠体商用协议等）。
 
 ## 致谢
 
