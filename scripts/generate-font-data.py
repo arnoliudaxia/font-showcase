@@ -6,8 +6,8 @@ import urllib.parse
 from pathlib import Path
 from collections import defaultdict
 
-BASE_DIR = Path('G:/工作项目/字体分享展示')
-PROJECT_DIR = BASE_DIR / 'font-showcase'
+BASE_DIR = Path(__file__).resolve().parent.parent
+PROJECT_DIR = BASE_DIR
 SOURCE_DIR = PROJECT_DIR / '字体库'
 SUBSETS_DIR = PROJECT_DIR / 'public' / 'subsets'
 SUBSETS_DIR.mkdir(parents=True, exist_ok=True)

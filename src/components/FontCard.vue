@@ -33,7 +33,7 @@ function variantDownloadName(v) {
 }
 
 onMounted(() => {
-  const fontUrl = `/${props.font.subsetPath}`
+  const fontUrl = import.meta.env.BASE_URL + props.font.subsetPath
   const ff = new FontFace(fontFaceName.value, `url("${fontUrl}")`)
   ff.load()
     .then((loadedFace) => {
