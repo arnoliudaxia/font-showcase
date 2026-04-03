@@ -158,23 +158,59 @@ on:
   push:
     branches: [main]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci
-      - run: npm run build
-      - uses: peaceiris/actions-gh-pages@v4
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        env:
+          BASE_URL: /font-showcase/   # 若仓库名不同，请修改此处
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          path: ./dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 ```
 
-> **注意**：GitHub Pages 默认不发布以 `_` 开头的文件或路径。如果构建产物中有这类文件，建议在 `public` 下放置一个空文件 `.nojekyll`。
+> **注意**：
+> 1. 使用此方式前，请进入仓库的 **Settings → Pages**，将 **Build and deployment** 的 Source 设为 **GitHub Actions**。
+> 2. GitHub Pages 默认不发布以 `_` 开头的文件或路径。如果构建产物中有这类文件，建议在 `public` 下放置一个空文件 `.nojekyll`。
 
 ## 版权与许可
 
