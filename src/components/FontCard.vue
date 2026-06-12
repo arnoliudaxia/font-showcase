@@ -17,9 +17,22 @@ const error = ref(false)
 
 const fontFaceName = computed(() => `Font-${props.font.id}`)
 const fontFamilyStyle = computed(() => loaded.value ? `"${fontFaceName.value}"` : 'sans-serif')
-const downloadFilename = computed(() => {
-  const ext = props.font.originalPath.split('.').pop() || 'ttf'
-  return `${props.font.name}.${ext}`
+const downloadItems = computed(() => {
+  const candidates = props.font.variants?.length
+    ? [...props.font.variants, props.font]
+    : [props.font]
+  const seen = new Set()
+
+  return candidates
+    .filter((item) => item.originalPath && !seen.has(item.originalPath) && seen.add(item.originalPath))
+    .map((item) => ({
+      href: item.originalPath,
+      filename: fontDownloadName(item)
+    }))
+})
+const downloadButtonTitle = computed(() => {
+  const count = downloadItems.value.length
+  return count > 1 ? `下载全部 ${count} 个字体文件` : '下载完整字体'
 })
 const fontSize = computed(() => {
   const size = props.font.size
@@ -28,9 +41,36 @@ const fontSize = computed(() => {
   return (size / (1024 * 1024)).toFixed(2) + ' MB'
 })
 
-function variantDownloadName(v) {
-  const ext = v.originalPath.split('.').pop() || 'ttf'
-  return `${v.name}.${ext}`
+function fontDownloadName(fontItem) {
+  const ext = fontItem.originalPath.split('.').pop() || 'ttf'
+  return `${fontItem.name}.${ext}`
+}
+
+function triggerDownload(item) {
+  const link = document.createElement('a')
+  link.href = item.href
+  link.download = item.filename
+  link.rel = 'noopener'
+  link.style.display = 'none'
+  document.body.appendChild(link)
+  link.click()
+
+  window.setTimeout(() => {
+    link.remove()
+  }, 5000)
+}
+
+function downloadFontFiles() {
+  downloadItems.value.forEach((item, index) => {
+    if (index === 0) {
+      triggerDownload(item)
+      return
+    }
+
+    window.setTimeout(() => {
+      triggerDownload(item)
+    }, index * 500)
+  })
 }
 
 onMounted(() => {
@@ -58,20 +98,19 @@ onMounted(() => {
       >
         {{ font.name }}
       </h3>
-      <a
+      <button
+        type="button"
         class="download-btn"
-        :href="font.originalPath"
-        :download="downloadFilename"
-        title="下载完整字体"
-        @click.stop
+        :title="downloadButtonTitle"
+        @click.stop="downloadFontFiles"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
           <polyline points="7 10 12 15 17 10"/>
           <line x1="12" y1="15" x2="12" y2="3"/>
         </svg>
-        下载
-      </a>
+        {{ downloadItems.length > 1 ? '下载全部' : '下载' }}
+      </button>
     </div>
     <div
       class="preview"
@@ -89,7 +128,7 @@ onMounted(() => {
           :key="v.name"
           class="variant-pill"
           :href="v.originalPath"
-          :download="variantDownloadName(v)"
+          :download="fontDownloadName(v)"
           :title="`下载 ${v.name}`"
           @click.stop
         >
@@ -145,6 +184,8 @@ onMounted(() => {
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  border: 0;
+  font-family: inherit;
   font-size: 12px;
   color: #fff;
   background: #111827;
@@ -153,6 +194,7 @@ onMounted(() => {
   text-decoration: none;
   transition: background 0.2s;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .download-btn:hover {
