@@ -217,8 +217,8 @@
     "name": "萌妹子字体(6000字)",
     "category": "中文字体/手写",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/%E8%90%8C%E5%A6%B9%E5%AD%90%E5%AD%97%E4%BD%93%286000%E5%AD%97%29.ttf",
-    "subsetPath": "fonts/中文字体_手写_萌妹子字体(6000字).ttf",
-    "size": 6576256
+    "subsetPath": "subsets/中文字体_手写_萌妹子字体(6000字).woff2",
+    "size": 6776
   },
   {
     "id": "中文字体_手写_陈静的字完整版",
@@ -846,49 +846,49 @@
     "category": "中文字体/黑体/阿里巴巴普惠体",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%99%AE%E6%83%A0%E4%BD%93/Alibaba-PuHuiTi-Regular.ttf",
     "subsetPath": "subsets/中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Regular.woff2",
-    "size": 4800,
+    "size": 4680,
     "variants": [
       {
         "name": "Alibaba-PuHuiTi-Thin",
         "weight": "Thin",
         "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%99%AE%E6%83%A0%E4%BD%93/Alibaba-PuHuiTi-Thin.ttf",
         "subsetPath": "subsets/中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Thin.woff2",
-        "size": 4560
+        "size": 4420
       },
       {
         "name": "Alibaba-PuHuiTi-Light",
         "weight": "Light",
         "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%99%AE%E6%83%A0%E4%BD%93/Alibaba-PuHuiTi-Light.ttf",
         "subsetPath": "subsets/中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Light.woff2",
-        "size": 4640
+        "size": 4612
       },
       {
         "name": "Alibaba-PuHuiTi-Regular",
         "weight": "Regular",
         "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%99%AE%E6%83%A0%E4%BD%93/Alibaba-PuHuiTi-Regular.ttf",
         "subsetPath": "subsets/中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Regular.woff2",
-        "size": 4800
+        "size": 4680
       },
       {
         "name": "Alibaba-PuHuiTi-Medium",
         "weight": "Medium",
         "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%99%AE%E6%83%A0%E4%BD%93/Alibaba-PuHuiTi-Medium.ttf",
         "subsetPath": "subsets/中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Medium.woff2",
-        "size": 4656
+        "size": 4512
       },
       {
         "name": "Alibaba-PuHuiTi-Bold",
         "weight": "Bold",
         "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%99%AE%E6%83%A0%E4%BD%93/Alibaba-PuHuiTi-Bold.ttf",
         "subsetPath": "subsets/中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Bold.woff2",
-        "size": 4760
+        "size": 4608
       },
       {
         "name": "Alibaba-PuHuiTi-Heavy",
         "weight": "Heavy",
         "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%99%AE%E6%83%A0%E4%BD%93/Alibaba-PuHuiTi-Heavy.ttf",
         "subsetPath": "subsets/中文字体_黑体_阿里巴巴普惠体_Alibaba-PuHuiTi-Heavy.woff2",
-        "size": 4516
+        "size": 4360
       }
     ]
   },
@@ -2038,6 +2038,6 @@
     "category": "数字字体",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E6%95%B0%E5%AD%97%E5%AD%97%E4%BD%93/BELL.TTF",
     "subsetPath": "subsets/数字字体_BELL.woff2",
-    "size": 7452
+    "size": 2000
   }
 ]
