@@ -457,27 +457,21 @@
   },
   {
     "id": "中文字体_黑体_LXGWNeoXiHei",
-    "name": "LXGWNeoXiHei",
+    "name": "霞鹜新晰黑（LXGWNeoXiHei ）",
     "category": "中文字体/黑体",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/LXGWNeoXiHei.ttf",
     "subsetPath": "subsets/中文字体_黑体_LXGWNeoXiHei.woff2",
-    "size": 6744
-  },
-  {
-    "id": "中文字体_黑体_MFDianHei_Noncommercial-Regular",
-    "name": "MFDianHei_Noncommercial-Regular",
-    "category": "中文字体/黑体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/MFDianHei_Noncommercial-Regular.ttf",
-    "subsetPath": "subsets/中文字体_黑体_MFDianHei_Noncommercial-Regular.woff2",
-    "size": 5380
+    "size": 6744,
+    "tip": "衍生于「IPAex黑体」的中文黑体字型"
   },
   {
     "id": "中文字体_黑体_SmileySans-Oblique",
-    "name": "SmileySans-Oblique",
+    "name": "得意黑",
     "category": "中文字体/黑体",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/SmileySans-Oblique.ttf",
     "subsetPath": "subsets/中文字体_黑体_SmileySans-Oblique.woff2",
-    "size": 4924
+    "size": 4924,
+    "tip": "将大弧线、窄、斜融合到一起的开源字体"
   },
   {
     "id": "中文字体_黑体_方正黑体简体",
@@ -1666,22 +1660,6 @@
     ]
   },
   {
-    "id": "日文字体_setofont",
-    "name": "setofont",
-    "category": "日文字体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E6%97%A5%E6%96%87%E5%AD%97%E4%BD%93/setofont.ttf",
-    "subsetPath": "subsets/日文字体_setofont.woff2",
-    "size": 3716
-  },
-  {
-    "id": "日文字体_SoukouMincho-2",
-    "name": "SoukouMincho-2",
-    "category": "日文字体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E6%97%A5%E6%96%87%E5%AD%97%E4%BD%93/SoukouMincho-2.ttf",
-    "subsetPath": "subsets/日文字体_SoukouMincho-2.woff2",
-    "size": 24432
-  },
-  {
     "id": "英文字体_serif_Book_Antiqua",
     "name": "Book Antiqua",
     "category": "英文字体/serif",
@@ -2041,11 +2019,11 @@
     "size": 2000
   },
   {
-    "id": "中文字体_手写_濑户字体SetoFont",
+    "id": "日文字体_濑户字体SetoFont",
     "name": "濑户字体SetoFont",
-    "category": "中文字体/手写",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/%E6%BF%91%E6%88%B7%E5%AD%97%E4%BD%93SetoFont.ttf",
-    "subsetPath": "subsets/中文字体_手写_濑户字体SetoFont.woff2",
+    "category": "日文字体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E6%97%A5%E6%96%87%E5%AD%97%E4%BD%93/%E6%BF%91%E6%88%B7%E5%AD%97%E4%BD%93SetoFont.ttf",
+    "subsetPath": "subsets/日文字体_濑户字体SetoFont.woff2",
     "size": 2992,
     "tip": "一款可爱风格的日系手写字体"
   },
@@ -2057,5 +2035,23 @@
     "subsetPath": "subsets/中文字体_手写_cjkFonts_allseto_v1.11.woff2",
     "size": 6588,
     "tip": "基于濑户字体透过深度学习智能造字"
+  },
+  {
+    "id": "中文字体_黑体_ChillReunion_Sans（黑体）",
+    "name": "寒蝉团圆体 Sans（黑体）",
+    "category": "中文字体/黑体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/ChillReunion_Sans%EF%BC%88%E9%BB%91%E4%BD%93%EF%BC%89.otf",
+    "subsetPath": "subsets/中文字体_黑体_ChillReunion_Sans（黑体）.woff2",
+    "size": 12920,
+    "tip": "得意黑二创字体，具有倾斜趋势，修改倾斜角度为3°"
+  },
+  {
+    "id": "中文字体_圆体_ChillReunion_Round（圆体）",
+    "name": "寒蝉团圆体 Round（圆体）",
+    "category": "中文字体/圆体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/ChillReunion_Round%EF%BC%88%E5%9C%86%E4%BD%93%EF%BC%89.otf",
+    "subsetPath": "subsets/中文字体_圆体_ChillReunion_Round（圆体）.woff2",
+    "size": 16048,
+    "tip": "得意黑二创字体，具有倾斜趋势，修改倾斜角度为3°"
   }
 ]
