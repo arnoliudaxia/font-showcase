@@ -2048,5 +2048,14 @@
     "subsetPath": "subsets/中文字体_手写_濑户字体SetoFont.woff2",
     "size": 2992,
     "tip": "一款可爱风格的日系手写字体"
+  },
+  {
+    "id": "中文字体_手写_cjkFonts_allseto_v1.11",
+    "name": "cjkFonts_allseto_v1.11",
+    "category": "中文字体/手写",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/cjkFonts_allseto_v1.11.ttf",
+    "subsetPath": "subsets/中文字体_手写_cjkFonts_allseto_v1.11.woff2",
+    "size": 6588,
+    "tip": "基于濑户字体透过深度学习智能造字"
   }
 ]

@@ -16,6 +16,7 @@ const loaded = ref(false)
 const error = ref(false)
 
 const fontFaceName = computed(() => `Font-${props.font.id}`)
+const fontFamilyStyle = computed(() => loaded.value ? `"${fontFaceName.value}"` : 'sans-serif')
 const downloadFilename = computed(() => {
   const ext = props.font.originalPath.split('.').pop() || 'ttf'
   return `${props.font.name}.${ext}`
@@ -74,7 +75,7 @@ onMounted(() => {
     </div>
     <div
       class="preview"
-      :style="{ fontFamily: loaded ? fontFaceName : 'sans-serif' }"
+      :style="{ fontFamily: fontFamilyStyle }"
     >
       <div v-if="!loaded && !error" class="loading">加载中...</div>
       <div v-else-if="error" class="error">字体加载失败</div>
