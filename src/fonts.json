@@ -2039,5 +2039,13 @@
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E6%95%B0%E5%AD%97%E5%AD%97%E4%BD%93/BELL.TTF",
     "subsetPath": "subsets/数字字体_BELL.woff2",
     "size": 2000
+  },
+  {
+    "id": "中文字体_手写_濑户字体SetoFont",
+    "name": "濑户字体SetoFont",
+    "category": "中文字体/手写",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/%E6%BF%91%E6%88%B7%E5%AD%97%E4%BD%93SetoFont.ttf",
+    "subsetPath": "subsets/中文字体_手写_濑户字体SetoFont.woff2",
+    "size": 2992
   }
 ]
