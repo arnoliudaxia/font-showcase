@@ -50,7 +50,13 @@ onMounted(() => {
 <template>
   <div class="font-card">
     <div class="card-header">
-      <h3 class="font-name">{{ font.name }}</h3>
+      <h3
+        class="font-name"
+        :class="{ 'has-tip': font.tip }"
+        :title="font.tip || font.name"
+      >
+        {{ font.name }}
+      </h3>
       <a
         class="download-btn"
         :href="font.originalPath"
@@ -126,6 +132,12 @@ onMounted(() => {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.font-name.has-tip {
+  cursor: help;
+  text-decoration: underline dotted #9ca3af;
+  text-underline-offset: 3px;
 }
 
 .download-btn {
