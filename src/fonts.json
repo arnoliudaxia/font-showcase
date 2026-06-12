@@ -2031,5 +2031,13 @@
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-SemiboldIt-14.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-SemiboldIt-14.woff2",
     "size": 4680
+  },
+  {
+    "id": "数字字体_BELL",
+    "name": "Bell",
+    "category": "数字字体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E6%95%B0%E5%AD%97%E5%AD%97%E4%BD%93/BELL.TTF",
+    "subsetPath": "subsets/数字字体_BELL.woff2",
+    "size": 7452
   }
 ]

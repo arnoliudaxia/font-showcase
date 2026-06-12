@@ -87,7 +87,13 @@ python scripts/generate-font-data.py
 
 ### 步骤 3：上传原始字体到 CDN
 
-当前 `originalPath` 的 CDN 基础地址为：
+字体库已上传至 123 云盘：
+
+```
+https://yun.123pan.cn/?homeFilePath=2678233%2C2761843
+```
+
+当前 `originalPath` 的 CDN 直链基础地址仍为：
 
 ```
 https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/
