@@ -606,76 +606,77 @@
     ]
   },
   {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030",
-    "name": "FZLTHPro_GB18030",
+    "id": "中文字体_黑体_方正兰亭黑",
+    "name": "方正兰亭黑",
     "category": "中文字体/黑体/方正兰亭黑",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030.otf",
     "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030.woff2",
-    "size": 5000
-  },
-  {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Cu",
-    "name": "FZLTHPro_GB18030_Cu",
-    "category": "中文字体/黑体/方正兰亭黑",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Cu.otf",
-    "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Cu.woff2",
-    "size": 4876
-  },
-  {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Da",
-    "name": "FZLTHPro_GB18030_Da",
-    "category": "中文字体/黑体/方正兰亭黑",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Da.otf",
-    "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Da.woff2",
-    "size": 5072
-  },
-  {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Te",
-    "name": "FZLTHPro_GB18030_Te",
-    "category": "中文字体/黑体/方正兰亭黑",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Te.otf",
-    "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Te.woff2",
-    "size": 4980
-  },
-  {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xi",
-    "name": "FZLTHPro_GB18030_Xi",
-    "category": "中文字体/黑体/方正兰亭黑",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Xi.otf",
-    "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xi.woff2",
-    "size": 5156
-  },
-  {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xian",
-    "name": "FZLTHPro_GB18030_Xian",
-    "category": "中文字体/黑体/方正兰亭黑",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Xian.otf",
-    "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xian.woff2",
-    "size": 4996
-  },
-  {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhong",
-    "name": "FZLTHPro_GB18030_Zhong",
-    "category": "中文字体/黑体/方正兰亭黑",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Zhong.otf",
-    "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhong.woff2",
-    "size": 4996
-  },
-  {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_ZhongCu",
-    "name": "FZLTHPro_GB18030_ZhongCu",
-    "category": "中文字体/黑体/方正兰亭黑",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_ZhongCu.otf",
-    "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_ZhongCu.woff2",
-    "size": 5068
-  },
-  {
-    "id": "中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhun",
-    "name": "FZLTHPro_GB18030_Zhun",
-    "category": "中文字体/黑体/方正兰亭黑",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Zhun.otf",
-    "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhun.woff2",
-    "size": 4972
+    "size": 5000,
+    "variants": [
+      {
+        "name": "FZLTHPro_GB18030_Xian",
+        "weight": "Xian",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Xian.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xian.woff2",
+        "size": 4996
+      },
+      {
+        "name": "FZLTHPro_GB18030_Xi",
+        "weight": "Xi",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Xi.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Xi.woff2",
+        "size": 5156
+      },
+      {
+        "name": "FZLTHPro_GB18030",
+        "weight": "Regular",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030.woff2",
+        "size": 5000
+      },
+      {
+        "name": "FZLTHPro_GB18030_Zhun",
+        "weight": "Zhun",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Zhun.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhun.woff2",
+        "size": 4972
+      },
+      {
+        "name": "FZLTHPro_GB18030_Te",
+        "weight": "Te",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Te.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Te.woff2",
+        "size": 4980
+      },
+      {
+        "name": "FZLTHPro_GB18030_Da",
+        "weight": "Da",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Da.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Da.woff2",
+        "size": 5072
+      },
+      {
+        "name": "FZLTHPro_GB18030_Zhong",
+        "weight": "Zhong",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Zhong.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Zhong.woff2",
+        "size": 4996
+      },
+      {
+        "name": "FZLTHPro_GB18030_ZhongCu",
+        "weight": "ZhongCu",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_ZhongCu.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_ZhongCu.woff2",
+        "size": 5068
+      },
+      {
+        "name": "FZLTHPro_GB18030_Cu",
+        "weight": "Cu",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/%E6%96%B9%E6%AD%A3%E5%85%B0%E4%BA%AD%E9%BB%91/FZLTHPro_GB18030_Cu.otf",
+        "subsetPath": "subsets/中文字体_黑体_方正兰亭黑_FZLTHPro_GB18030_Cu.woff2",
+        "size": 4876
+      }
+    ]
   },
   {
     "id": "中文字体_黑体_站酷仓耳渔阳体（家族字体）_TsangerYuYangT",
