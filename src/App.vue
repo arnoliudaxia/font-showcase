@@ -117,7 +117,7 @@ function goToIndex(index) {
     <header class="app-header">
       <h1>字体库展示</h1>
       <p class="subtitle">
-        共收录 {{ stats.total }} 款字体，子集化优化 {{ stats.subsetCount }} 款
+        共收录 {{ stats.total }} 款字体
       </p>
 
       <div class="controls">
