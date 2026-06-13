@@ -69,46 +69,42 @@ npm run build
 
 ## 添加新字体
 
-### 步骤 1：放入本地源目录
+### 方式一：全量重建
 
-将字体文件（`.ttf` / `.otf` / `.woff` / `.woff2`）放入 `字体库/` 下的任意子目录中。目录层级即为网页上的分类层级。
-
-### 步骤 2：运行生成脚本
+适合批量整理字体库或重建全部数据。将字体文件（`.ttf` / `.otf` / `.woff` / `.woff2`）放入 `字体库/` 下的任意子目录中，目录层级即为网页上的分类层级。
 
 ```bash
 python scripts/generate-font-data.py
 ```
 
-脚本会自动完成：
-- 扫描 `字体库/` 下的全部字体
-- 生成 WOFF2 子集到 `public/subsets/`
-- 对子集化失败的字体回退到 `public/fonts/`
-- 更新 `src/fonts.json`，并将 `originalPath` 自动映射为 CDN 直链
+脚本会扫描 `字体库/` 下的全部字体，生成 WOFF2 子集到 `public/subsets/`，对子集化失败的字体回退到 `public/fonts/`，并重新生成 `src/fonts.json`。
 
-### 步骤 3：上传原始字体到 CDN
-
-字体库已上传至 123 云盘：
-
-```
-https://yun.123pan.cn/?homeFilePath=2678233%2C2761843
-```
-
-当前 `originalPath` 的 CDN 直链基础地址仍为：
-
-```
-https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/
-```
-
-你需要将 `字体库/` 中的原始字体文件按**相同的相对目录结构**上传到该 CDN 空间。例如：
+原始字体还需要按相同的相对目录结构上传到 CDN，例如：
 
 - 本地：`字体库/英文字体/手写/Inkfree.ttf`
 - CDN：`https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/Inkfree.ttf`
 
-### 步骤 4：重新构建前端
+最后重新构建前端：
 
 ```bash
 npm run build
 ```
+
+### 方式二：增量添加
+
+适合只添加少量字体，避免全量重建 `src/fonts.json`。
+
+1. 将原始字体放到 `字体库/<分类>/` 下，例如 `字体库/中文字体/黑体/Example.ttf`。
+2. 为该字体生成预览子集，保存到 `public/subsets/`，文件名通常与 `id` 保持一致，例如 `中文字体_黑体_Example.woff2`。
+3. 在 `src/fonts.json` 追加一条记录，至少包含 `id`、`name`、`category`、`originalPath`、`subsetPath`、`size`。如果字体没有中文字符，添加 `"supportsChinese": false`。
+4. 将原始字体按相同目录结构上传到 CDN，并确认 `originalPath` 能直接下载。
+5. 运行校验：
+
+```bash
+npm run build
+```
+
+同一家族的多个字重建议合并为一条记录，并把各字重放进 `variants`，这样页面会显示一个卡片并支持“下载全部”。
 
 ## 数据格式说明
 

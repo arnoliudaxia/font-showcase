@@ -8,6 +8,7 @@ const selectedCategory = ref('')
 const previewText = ref('字体预览 ABCD abcd 1234 岁月静好 设计之美')
 
 const categoryOrder = {
+  '': ['中文字体', '英文字体', '像素字体', '数字字体', '日文字体'],
   英文字体: ['serif', '无衬线体', '手写', '等宽', '特殊']
 }
 
