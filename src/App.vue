@@ -115,7 +115,8 @@ function goToIndex(index) {
 <template>
   <div class="app-container">
     <header class="app-header">
-      <h1>字体库展示</h1>
+      <img class="site-logo" src="/icon1.png" alt="" />
+      <h1>见字如面</h1>
       <p class="subtitle">
         共收录 {{ stats.total }} 款字体
       </p>
@@ -216,6 +217,14 @@ body {
 .app-header {
   text-align: center;
   margin-bottom: 24px;
+}
+
+.site-logo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 auto 12px;
 }
 
 .app-header h1 {
