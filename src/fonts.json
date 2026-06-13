@@ -238,7 +238,8 @@
     "category": "中文字体/标题重体",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%A0%87%E9%A2%98%E9%87%8D%E4%BD%93/%E4%BC%98%E8%AE%BE%E6%A0%87%E9%A2%98%E9%BB%91.ttf",
     "subsetPath": "subsets/中文字体_标题重体_优设标题黑.woff2",
-    "size": 2180
+    "size": 2180,
+    "tip": "速度感、力量感极强的专业美术标题字体"
   },
   {
     "id": "中文字体_楷书_江西拙楷2.0",
@@ -494,177 +495,54 @@
     "size": 12336
   },
   {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Black",
-    "name": "HarmonyOS_Sans_Black",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_Black.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Black.woff2",
-    "size": 2832,
-    "supportsChinese": false
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Bold",
-    "name": "HarmonyOS_Sans_Bold",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_Bold.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Bold.woff2",
-    "size": 2808,
-    "supportsChinese": false
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Light",
-    "name": "HarmonyOS_Sans_Light",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_Light.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Light.woff2",
-    "size": 2824,
-    "supportsChinese": false
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Medium",
-    "name": "HarmonyOS_Sans_Medium",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_Medium.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Medium.woff2",
-    "size": 2732,
-    "supportsChinese": false
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Regular",
-    "name": "HarmonyOS_Sans_Regular",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_Regular.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Regular.woff2",
-    "size": 2664,
-    "supportsChinese": false
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Black",
-    "name": "HarmonyOS_Sans_SC_Black",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Black.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Black.woff2",
-    "size": 5084
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Bold",
-    "name": "HarmonyOS_Sans_SC_Bold",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Bold.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Bold.woff2",
-    "size": 5044
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Light",
-    "name": "HarmonyOS_Sans_SC_Light",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Light.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Light.woff2",
-    "size": 5164
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Medium",
-    "name": "HarmonyOS_Sans_SC_Medium",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Medium.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Medium.woff2",
-    "size": 4976
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Regular",
-    "name": "HarmonyOS_Sans_SC_Regular",
+    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC",
+    "name": "HarmonyOS Sans SC",
     "category": "中文字体/黑体/HarmonyOS Sans",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Regular.ttf",
     "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Regular.woff2",
-    "size": 4904
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Thin",
-    "name": "HarmonyOS_Sans_SC_Thin",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Thin.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Thin.woff2",
-    "size": 5140
-  },
-  {
-    "id": "中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Thin",
-    "name": "HarmonyOS_Sans_Thin",
-    "category": "中文字体/黑体/HarmonyOS Sans",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_Thin.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_Thin.woff2",
-    "size": 2856,
-    "supportsChinese": false
-  },
-  {
-    "id": "中文字体_黑体_HONORSansCN",
-    "name": "HONORSansCN",
-    "category": "中文字体/黑体/HONORSansCN",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-Regular.ttf",
-    "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-Regular.woff2",
-    "size": 3416,
+    "size": 4904,
     "variants": [
       {
-        "name": "HONORSansCN-Thin",
+        "name": "HarmonyOS_Sans_SC_Thin",
         "weight": "Thin",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-Thin.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-Thin.woff2",
-        "size": 3416
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Thin.ttf",
+        "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Thin.woff2",
+        "size": 5140
       },
       {
-        "name": "HONORSansCN-ExtraLight",
-        "weight": "ExtraLight",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-ExtraLight.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-ExtraLight.woff2",
-        "size": 3424
-      },
-      {
-        "name": "HONORSansCN-Light",
+        "name": "HarmonyOS_Sans_SC_Light",
         "weight": "Light",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-Light.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-Light.woff2",
-        "size": 3440
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Light.ttf",
+        "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Light.woff2",
+        "size": 5164
       },
       {
-        "name": "HONORSansCN-Regular",
+        "name": "HarmonyOS_Sans_SC_Regular",
         "weight": "Regular",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-Regular.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-Regular.woff2",
-        "size": 3416
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Regular.ttf",
+        "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Regular.woff2",
+        "size": 4904
       },
       {
-        "name": "HONORSansCN-Medium",
+        "name": "HarmonyOS_Sans_SC_Medium",
         "weight": "Medium",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-Medium.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-Medium.woff2",
-        "size": 3424
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Medium.ttf",
+        "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Medium.woff2",
+        "size": 4976
       },
       {
-        "name": "HONORSansCN-DemiBold",
-        "weight": "DemiBold",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-DemiBold.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-DemiBold.woff2",
-        "size": 3388
-      },
-      {
-        "name": "HONORSansCN-Bold",
+        "name": "HarmonyOS_Sans_SC_Bold",
         "weight": "Bold",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-Bold.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-Bold.woff2",
-        "size": 3440
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Bold.ttf",
+        "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Bold.woff2",
+        "size": 5044
       },
       {
-        "name": "HONORSansCN-ExtraBold",
-        "weight": "ExtraBold",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-ExtraBold.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-ExtraBold.woff2",
-        "size": 3396
-      },
-      {
-        "name": "HONORSansCN-Heavy",
-        "weight": "Heavy",
-        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HONORSansCN/HONORSansCN-Heavy.ttf",
-        "subsetPath": "subsets/中文字体_黑体_HONORSansCN_HONORSansCN-Heavy.woff2",
-        "size": 3440
+        "name": "HarmonyOS_Sans_SC_Black",
+        "weight": "Black",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E9%BB%91%E4%BD%93/HarmonyOS%20Sans/HarmonyOS_Sans_SC_Black.ttf",
+        "subsetPath": "subsets/中文字体_黑体_HarmonyOS_Sans_HarmonyOS_Sans_SC_Black.woff2",
+        "size": 5084
       }
     ]
   },
@@ -2097,5 +1975,23 @@
     "subsetPath": "subsets/中文字体_圆体_ChillReunion_Round（圆体）.woff2",
     "size": 16048,
     "tip": "得意黑二创字体，具有倾斜趋势，修改倾斜角度为3°"
+  },
+  {
+    "id": "中文字体_标题重体_优设标题圆",
+    "name": "优设标题圆",
+    "category": "中文字体/标题重体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%A0%87%E9%A2%98%E9%87%8D%E4%BD%93/%E4%BC%98%E8%AE%BE%E6%A0%87%E9%A2%98%E5%9C%86.otf",
+    "subsetPath": "subsets/中文字体_标题重体_优设标题圆.woff2",
+    "size": 7156,
+    "tip": "优设标题黑的升级版，从斜体变为正体"
+  },
+  {
+    "id": "中文字体_圆体_YSHaoShenTi",
+    "name": "优设好身体",
+    "category": "中文字体/圆体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/YSHaoShenTi.ttf",
+    "subsetPath": "subsets/中文字体_圆体_YSHaoShenTi.woff2",
+    "size": 5532,
+    "tip": "圆柔纤细，有亲和力和现代感的字体"
   }
 ]
