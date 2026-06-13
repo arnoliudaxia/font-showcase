@@ -15,6 +15,7 @@ const props = defineProps({
 const loaded = ref(false)
 const error = ref(false)
 const activePreviewKey = ref(defaultPreviewKey())
+const displayFontFaceName = ref('')
 let loadRequestId = 0
 
 const activePreviewItem = computed(() => {
@@ -24,7 +25,7 @@ const fontFaceName = computed(() => {
   const key = activePreviewItem.value.subsetPath || activePreviewItem.value.name
   return `Font-${props.font.id}-${hashString(key)}`
 })
-const fontFamilyStyle = computed(() => loaded.value ? `"${fontFaceName.value}"` : 'sans-serif')
+const fontFamilyStyle = computed(() => displayFontFaceName.value ? `"${displayFontFaceName.value}"` : 'sans-serif')
 const previewContent = computed(() => {
   if (props.font.supportsChinese !== false) return props.previewText
 
@@ -116,7 +117,8 @@ function selectPreviewVariant(variant) {
 
 function loadPreviewFont() {
   const currentRequestId = ++loadRequestId
-  loaded.value = false
+  const hasDisplayFont = Boolean(displayFontFaceName.value)
+  loaded.value = hasDisplayFont
   error.value = false
 
   const fontUrl = import.meta.env.BASE_URL + activePreviewItem.value.subsetPath
@@ -125,6 +127,7 @@ function loadPreviewFont() {
     .then((loadedFace) => {
       if (currentRequestId !== loadRequestId) return
       document.fonts.add(loadedFace)
+      displayFontFaceName.value = fontFaceName.value
       loaded.value = true
     })
     .catch((err) => {
@@ -293,24 +296,22 @@ onMounted(() => {
 .card-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   font-size: 12px;
   color: #9ca3af;
 }
 
 .font-meta {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
 }
 
 .font-meta:first-child {
   color: #6b7280;
-  background: #f3f4f6;
-  padding: 2px 8px;
-  border-radius: 999px;
-  flex-shrink: 0;
+  flex: 1 1 auto;
 }
 
 .variant-list {
@@ -319,6 +320,8 @@ onMounted(() => {
   gap: 6px;
   flex-wrap: wrap;
   justify-content: flex-end;
+  flex: 0 1 45%;
+  min-width: 72px;
 }
 
 .variant-pill {
@@ -326,7 +329,7 @@ onMounted(() => {
   font-family: inherit;
   font-size: 11px;
   color: #374151;
-  background: #f3f4f6;
+  background: #fff;
   border: 1px solid #e5e7eb;
   padding: 2px 8px;
   border-radius: 999px;
@@ -344,6 +347,5 @@ onMounted(() => {
 
 .variant-pill.active {
   color: #111827;
-  border-color: #111827;
 }
 </style>
