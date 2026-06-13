@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 
 const props = defineProps({
   font: {
@@ -14,8 +14,16 @@ const props = defineProps({
 
 const loaded = ref(false)
 const error = ref(false)
+const activePreviewKey = ref(defaultPreviewKey())
+let loadRequestId = 0
 
-const fontFaceName = computed(() => `Font-${props.font.id}`)
+const activePreviewItem = computed(() => {
+  return props.font.variants?.find((variant) => variantKey(variant) === activePreviewKey.value) || props.font
+})
+const fontFaceName = computed(() => {
+  const key = activePreviewItem.value.subsetPath || activePreviewItem.value.name
+  return `Font-${props.font.id}-${hashString(key)}`
+})
 const fontFamilyStyle = computed(() => loaded.value ? `"${fontFaceName.value}"` : 'sans-serif')
 const previewContent = computed(() => {
   if (props.font.supportsChinese !== false) return props.previewText
@@ -83,18 +91,60 @@ function downloadFontFiles() {
   })
 }
 
-onMounted(() => {
-  const fontUrl = import.meta.env.BASE_URL + props.font.subsetPath
+function hashString(value) {
+  let hash = 0
+  for (let i = 0; i < value.length; i += 1) {
+    hash = ((hash << 5) - hash + value.charCodeAt(i)) | 0
+  }
+  return Math.abs(hash).toString(36)
+}
+
+function variantKey(variant) {
+  return `${variant.name}|${variant.subsetPath}`
+}
+
+function defaultPreviewKey() {
+  const matchingVariant = props.font.variants?.find((variant) => {
+    return variant.subsetPath === props.font.subsetPath && variant.originalPath === props.font.originalPath
+  })
+  return variantKey(matchingVariant || props.font)
+}
+
+function selectPreviewVariant(variant) {
+  activePreviewKey.value = variantKey(variant)
+}
+
+function loadPreviewFont() {
+  const currentRequestId = ++loadRequestId
+  loaded.value = false
+  error.value = false
+
+  const fontUrl = import.meta.env.BASE_URL + activePreviewItem.value.subsetPath
   const ff = new FontFace(fontFaceName.value, `url("${fontUrl}")`)
   ff.load()
     .then((loadedFace) => {
+      if (currentRequestId !== loadRequestId) return
       document.fonts.add(loadedFace)
       loaded.value = true
     })
     .catch((err) => {
-      console.error('Font load error:', props.font.name, err)
+      if (currentRequestId !== loadRequestId) return
+      console.error('Font load error:', activePreviewItem.value.name, err)
       error.value = true
     })
+}
+
+watch(
+  () => props.font.id,
+  () => {
+    activePreviewKey.value = defaultPreviewKey()
+  }
+)
+
+watch(activePreviewKey, loadPreviewFont)
+
+onMounted(() => {
+  loadPreviewFont()
 })
 </script>
 
@@ -133,17 +183,17 @@ onMounted(() => {
     <div class="card-footer">
       <span class="font-meta">{{ font.category }}</span>
       <div v-if="font.variants?.length" class="variant-list">
-        <a
+        <button
           v-for="v in font.variants"
           :key="v.name"
+          type="button"
           class="variant-pill"
-          :href="v.originalPath"
-          :download="fontDownloadName(v)"
-          :title="`下载 ${v.name}`"
-          @click.stop
+          :class="{ active: activePreviewKey === variantKey(v) }"
+          :title="`预览 ${v.name}`"
+          @click.stop="selectPreviewVariant(v)"
         >
           {{ v.weight }}
-        </a>
+        </button>
       </div>
       <span v-else class="font-meta">{{ fontSize }}</span>
     </div>
@@ -272,6 +322,8 @@ onMounted(() => {
 }
 
 .variant-pill {
+  appearance: none;
+  font-family: inherit;
   font-size: 11px;
   color: #374151;
   background: #f3f4f6;
@@ -281,10 +333,17 @@ onMounted(() => {
   text-decoration: none;
   transition: background 0.15s, border-color 0.15s;
   white-space: nowrap;
+  cursor: pointer;
 }
 
-.variant-pill:hover {
+.variant-pill:hover,
+.variant-pill.active {
   background: #e5e7eb;
   border-color: #d1d5db;
+}
+
+.variant-pill.active {
+  color: #111827;
+  border-color: #111827;
 }
 </style>
