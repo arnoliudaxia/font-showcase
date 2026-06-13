@@ -17,6 +17,14 @@ const error = ref(false)
 
 const fontFaceName = computed(() => `Font-${props.font.id}`)
 const fontFamilyStyle = computed(() => loaded.value ? `"${fontFaceName.value}"` : 'sans-serif')
+const previewContent = computed(() => {
+  if (props.font.supportsChinese !== false) return props.previewText
+
+  return props.previewText
+    .replace(/[\p{Script=Han}\u3000-\u303f\uff00-\uffef]/gu, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+})
 const downloadItems = computed(() => {
   const candidates = props.font.variants?.length
     ? [...props.font.variants, props.font]
@@ -120,7 +128,7 @@ onMounted(() => {
     >
       <div v-if="!loaded && !error" class="loading">加载中...</div>
       <div v-else-if="error" class="error">字体加载失败</div>
-      <div v-else class="preview-text">{{ previewText }}</div>
+      <div v-else class="preview-text">{{ previewContent }}</div>
     </div>
     <div class="card-footer">
       <span class="font-meta">{{ font.category }}</span>
