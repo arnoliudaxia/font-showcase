@@ -7,6 +7,23 @@ const search = ref('')
 const selectedCategory = ref('')
 const previewText = ref('字体预览 ABCD abcd 1234 岁月静好 设计之美')
 
+const categoryOrder = {
+  英文字体: ['serif', '无衬线体', '手写', '等宽', '特殊']
+}
+
+function sortCategories(categories) {
+  const order = categoryOrder[selectedCategory.value] || []
+  return categories.sort((a, b) => {
+    const aIndex = order.indexOf(a)
+    const bIndex = order.indexOf(b)
+    if (aIndex !== -1 || bIndex !== -1) {
+      return (aIndex === -1 ? Number.MAX_SAFE_INTEGER : aIndex) -
+        (bIndex === -1 ? Number.MAX_SAFE_INTEGER : bIndex)
+    }
+    return a.localeCompare(b, 'zh-Hans-CN')
+  })
+}
+
 // 收集所有存在的分类节点（包括中间层级）
 const allCategoryNodes = computed(() => {
   const nodes = new Set()
@@ -37,7 +54,7 @@ const currentSubCategories = computed(() => {
       subs.add(next)
     }
   })
-  return Array.from(subs).sort()
+  return sortCategories(Array.from(subs))
 })
 
 // 面包屑路径

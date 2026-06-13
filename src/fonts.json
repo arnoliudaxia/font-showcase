@@ -85,52 +85,56 @@
     ]
   },
   {
-    "id": "中文字体_圆体_江城圆体_江城圆体_200W",
-    "name": "江城圆体 200W",
-    "category": "中文字体/圆体/江城圆体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20200W.ttf",
-    "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_200W.woff2",
-    "size": 5900
-  },
-  {
-    "id": "中文字体_圆体_江城圆体_江城圆体_300W",
-    "name": "江城圆体 300W",
-    "category": "中文字体/圆体/江城圆体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20300W.ttf",
-    "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_300W.woff2",
-    "size": 5772
-  },
-  {
-    "id": "中文字体_圆体_江城圆体_江城圆体_400W",
-    "name": "江城圆体 400W",
+    "id": "中文字体_圆体_江城圆体_江城圆体",
+    "name": "江城圆体",
     "category": "中文字体/圆体/江城圆体",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20400W.ttf",
     "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_400W.woff2",
-    "size": 5884
-  },
-  {
-    "id": "中文字体_圆体_江城圆体_江城圆体_500W",
-    "name": "江城圆体 500W",
-    "category": "中文字体/圆体/江城圆体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20500W.ttf",
-    "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_500W.woff2",
-    "size": 6140
-  },
-  {
-    "id": "中文字体_圆体_江城圆体_江城圆体_600W",
-    "name": "江城圆体 600W",
-    "category": "中文字体/圆体/江城圆体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20600W.ttf",
-    "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_600W.woff2",
-    "size": 6212
-  },
-  {
-    "id": "中文字体_圆体_江城圆体_江城圆体_700W",
-    "name": "江城圆体 700W",
-    "category": "中文字体/圆体/江城圆体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20700W.ttf",
-    "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_700W.woff2",
-    "size": 6272
+    "size": 5884,
+    "variants": [
+      {
+        "name": "江城圆体 200W",
+        "weight": "200W",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20200W.ttf",
+        "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_200W.woff2",
+        "size": 5900
+      },
+      {
+        "name": "江城圆体 300W",
+        "weight": "300W",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20300W.ttf",
+        "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_300W.woff2",
+        "size": 5772
+      },
+      {
+        "name": "江城圆体 400W",
+        "weight": "400W",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20400W.ttf",
+        "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_400W.woff2",
+        "size": 5884
+      },
+      {
+        "name": "江城圆体 500W",
+        "weight": "500W",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20500W.ttf",
+        "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_500W.woff2",
+        "size": 6140
+      },
+      {
+        "name": "江城圆体 600W",
+        "weight": "600W",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20600W.ttf",
+        "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_600W.woff2",
+        "size": 6212
+      },
+      {
+        "name": "江城圆体 700W",
+        "weight": "700W",
+        "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93/%E6%B1%9F%E5%9F%8E%E5%9C%86%E4%BD%93%20700W.ttf",
+        "subsetPath": "subsets/中文字体_圆体_江城圆体_江城圆体_700W.woff2",
+        "size": 6272
+      }
+    ]
   },
   {
     "id": "中文字体_宋体_MFYanSong_Noncommercial-Regular",
@@ -1665,7 +1669,8 @@
     "category": "英文字体/serif",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/serif/Book%20Antiqua.TTF",
     "subsetPath": "subsets/英文字体_serif_Book_Antiqua.woff2",
-    "size": 9216
+    "size": 9216,
+    "tip": "以意大利文艺复兴时期手写字母为原型，能为文档营造出与大多数几何感较强的正文字体截然不同的氛围。"
   },
   {
     "id": "英文字体_手写_Inkfree",
@@ -1673,23 +1678,17 @@
     "category": "英文字体/手写",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/Inkfree.ttf",
     "subsetPath": "subsets/英文字体_手写_Inkfree.woff2",
-    "size": 2596
-  },
-  {
-    "id": "英文字体_无衬线体_BebasNeue",
-    "name": "BebasNeue",
-    "category": "英文字体/无衬线体",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E6%97%A0%E8%A1%AC%E7%BA%BF%E4%BD%93/BebasNeue.otf",
-    "subsetPath": "subsets/英文字体_无衬线体_BebasNeue.woff2",
-    "size": 3492
+    "size": 2596,
+    "tip": "休闲手写风格字体，字形排列不规则并带有偶发连笔，适合白板、OneNote 等轻松书写场景。"
   },
   {
     "id": "英文字体_无衬线体_FjallaOne-Regular",
-    "name": "FjallaOne-Regular",
+    "name": "Fjalla One",
     "category": "英文字体/无衬线体",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E6%97%A0%E8%A1%AC%E7%BA%BF%E4%BD%93/FjallaOne-Regular.ttf",
     "subsetPath": "subsets/英文字体_无衬线体_FjallaOne-Regular.woff2",
-    "size": 4356
+    "size": 4356,
+    "tip": "适合窄屏幕显示"
   },
   {
     "id": "英文字体_无衬线体_UniversLTStd-UltraCn",
@@ -1697,11 +1696,12 @@
     "category": "英文字体/无衬线体",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E6%97%A0%E8%A1%AC%E7%BA%BF%E4%BD%93/UniversLTStd-UltraCn.otf",
     "subsetPath": "subsets/英文字体_无衬线体_UniversLTStd-UltraCn.woff2",
-    "size": 2984
+    "size": 2984,
+    "tip": "Linotype 经典 Univers 字体家族的 Ultra Condensed（超窄压缩）版本。Univers 由 Adrian Frutiger 设计，是现代主义无衬线字体的代表作之一。"
   },
   {
     "id": "英文字体_无衬线体_din_pro_DINPro",
-    "name": "DINPro",
+    "name": "D-DIN PRO",
     "category": "英文字体/无衬线体/din pro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E6%97%A0%E8%A1%AC%E7%BA%BF%E4%BD%93/din%20pro/DINPro-Regular.otf",
     "subsetPath": "subsets/英文字体_无衬线体_din_pro_DINPro-Regular.woff2",
@@ -1742,30 +1742,24 @@
         "subsetPath": "subsets/英文字体_无衬线体_din_pro_DINPro-Black.woff2",
         "size": 3072
       }
-    ]
+    ],
+    "tip": "由阿德里安·弗鲁提格（Adrian Frutigеr）于1997年设计的无衬线字体。它是对DIN字体家族的现代诠释，该字体家族最初在1930年代为德国道路标识系统而设计。这款多功能字体适用于印刷品、网页及移动端等多种场景。"
   },
   {
-    "id": "英文字体_特殊_LaborUnion-Regular",
+    "id": "英文字体_serif_LaborUnion-Regular",
     "name": "LaborUnion-Regular",
-    "category": "英文字体/特殊",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%89%B9%E6%AE%8A/LaborUnion-Regular.otf",
-    "subsetPath": "subsets/英文字体_特殊_LaborUnion-Regular.woff2",
-    "size": 1956
+    "category": "英文字体/serif",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/serif/LaborUnion-Regular.otf",
+    "subsetPath": "subsets/英文字体_serif_LaborUnion-Regular.woff2",
+    "size": 1956,
+    "tip": "一款复古衬线展示字体（Serif Display），由 McLetters 为 Ithaca College 学生组织设计，风格厚重有力，支持拉丁及西里尔字符，可免费使用。"
   },
   {
-    "id": "英文字体_特殊_提瓦特语",
-    "name": "提瓦特语",
-    "category": "英文字体/特殊",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%89%B9%E6%AE%8A/%E6%8F%90%E7%93%A6%E7%89%B9%E8%AF%AD.otf",
-    "subsetPath": "subsets/英文字体_特殊_提瓦特语.woff2",
-    "size": 4448
-  },
-  {
-    "id": "英文字体_等宽_DigitalNumbers",
+    "id": "数字字体_DigitalNumbers",
     "name": "DigitalNumbers",
-    "category": "英文字体/等宽",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/DigitalNumbers.ttf",
-    "subsetPath": "subsets/英文字体_等宽_DigitalNumbers.woff2",
+    "category": "数字字体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E6%95%B0%E5%AD%97%E5%AD%97%E4%BD%93/DigitalNumbers.ttf",
+    "subsetPath": "subsets/数字字体_DigitalNumbers.woff2",
     "size": 948
   },
   {
@@ -1804,7 +1798,8 @@
         "subsetPath": "subsets/英文字体_等宽_HackWithChinese_HackNerdFont-Italic.woff2",
         "size": 6404
       }
-    ]
+    ],
+    "tip": "Hack 字体（基于 Source Code Pro 优化）的 Nerd Font 版本，专为编程终端设计，额外包含大量图标、Powerline 符号和开发者常用字形。后缀 Mono 为全等宽版本，Propo 为比例间距版本。"
   },
   {
     "id": "英文字体_等宽_HackWithChinese_HackNerdFontMono",
@@ -1842,7 +1837,8 @@
         "subsetPath": "subsets/英文字体_等宽_HackWithChinese_HackNerdFontMono-Italic.woff2",
         "size": 6436
       }
-    ]
+    ],
+    "tip": "Hack 字体（基于 Source Code Pro 优化）的 Nerd Font 版本，专为编程终端设计，额外包含大量图标、Powerline 符号和开发者常用字形。后缀 Mono 为全等宽版本，Propo 为比例间距版本。"
   },
   {
     "id": "英文字体_等宽_HackWithChinese_HackNerdFontPropo",
@@ -1880,7 +1876,8 @@
         "subsetPath": "subsets/英文字体_等宽_HackWithChinese_HackNerdFontPropo-Italic.woff2",
         "size": 6432
       }
-    ]
+    ],
+    "tip": "Hack 字体（基于 Source Code Pro 优化）的 Nerd Font 版本，专为编程终端设计，额外包含大量图标、Powerline 符号和开发者常用字形。后缀 Mono 为全等宽版本，Propo 为比例间距版本。"
   },
   {
     "id": "英文字体_等宽_HackWithChinese_HackNF-Regular-AddChinese",
@@ -1888,7 +1885,8 @@
     "category": "英文字体/等宽/HackWithChinese",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/HackWithChinese/HackNF-Regular-AddChinese.ttf",
     "subsetPath": "subsets/英文字体_等宽_HackWithChinese_HackNF-Regular-AddChinese.woff2",
-    "size": 8220
+    "size": 8220,
+    "tip": "我自己将中文字体补充进去的，AddChinese 是字体名称不变直接加入中文，twofixs 是新建了一个独立字体包含中文的。"
   },
   {
     "id": "英文字体_等宽_HackWithChinese_HackNF-Regular-Chinese-twofixs-Independent",
@@ -1896,7 +1894,8 @@
     "category": "英文字体/等宽/HackWithChinese",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/HackWithChinese/HackNF-Regular-Chinese-twofixs-Independent.ttf",
     "subsetPath": "subsets/英文字体_等宽_HackWithChinese_HackNF-Regular-Chinese-twofixs-Independent.woff2",
-    "size": 8220
+    "size": 8220,
+    "tip": "我自己将中文字体补充进去的，AddChinese 是字体名称不变直接加入中文，twofixs 是新建了一个独立字体包含中文的。"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-Black-1",
@@ -1904,7 +1903,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-Black-1.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-Black-1.woff2",
-    "size": 4504
+    "size": 4504,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-BlackIt-2",
@@ -1912,7 +1912,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-BlackIt-2.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-BlackIt-2.woff2",
-    "size": 4652
+    "size": 4652,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-Bold-3",
@@ -1920,7 +1921,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-Bold-3.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-Bold-3.woff2",
-    "size": 4496
+    "size": 4496,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-BoldIt-4",
@@ -1928,7 +1930,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-BoldIt-4.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-BoldIt-4.woff2",
-    "size": 4668
+    "size": 4668,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-ExtraLight-5",
@@ -1936,7 +1939,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-ExtraLight-5.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-ExtraLight-5.woff2",
-    "size": 4544
+    "size": 4544,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-ExtraLightIt-6",
@@ -1944,7 +1948,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-ExtraLightIt-6.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-ExtraLightIt-6.woff2",
-    "size": 4608
+    "size": 4608,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-It-7",
@@ -1952,7 +1957,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-It-7.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-It-7.woff2",
-    "size": 4684
+    "size": 4684,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-Light-8",
@@ -1960,7 +1966,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-Light-8.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-Light-8.woff2",
-    "size": 4528
+    "size": 4528,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-LightIt-9",
@@ -1968,7 +1975,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-LightIt-9.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-LightIt-9.woff2",
-    "size": 4632
+    "size": 4632,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-Medium-10",
@@ -1976,7 +1984,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-Medium-10.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-Medium-10.woff2",
-    "size": 4500
+    "size": 4500,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-MediumIt-11",
@@ -1984,7 +1993,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-MediumIt-11.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-MediumIt-11.woff2",
-    "size": 4660
+    "size": 4660,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-Regular-12",
@@ -1992,7 +2002,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-Regular-12.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-Regular-12.woff2",
-    "size": 4476
+    "size": 4476,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-Semibold-13",
@@ -2000,7 +2011,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-Semibold-13.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-Semibold-13.woff2",
-    "size": 4548
+    "size": 4548,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "英文字体_等宽_SourceCodePro_SourceCodePro-SemiboldIt-14",
@@ -2008,7 +2020,8 @@
     "category": "英文字体/等宽/SourceCodePro",
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E7%AD%89%E5%AE%BD/SourceCodePro/SourceCodePro-SemiboldIt-14.ttf",
     "subsetPath": "subsets/英文字体_等宽_SourceCodePro_SourceCodePro-SemiboldIt-14.woff2",
-    "size": 4680
+    "size": 4680,
+    "tip": "Adobe 推出的开源等宽编程字体，由 Paul D. Hunt 于 2012 年设计，基于 Source Sans 的人道主义风格"
   },
   {
     "id": "数字字体_BELL",

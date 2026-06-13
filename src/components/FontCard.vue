@@ -32,7 +32,9 @@ const downloadItems = computed(() => {
 })
 const downloadButtonTitle = computed(() => {
   const count = downloadItems.value.length
-  return count > 1 ? `下载全部 ${count} 个字体文件` : '下载完整字体'
+  return count > 1
+    ? `下载全部 ${count} 个字体文件。首次批量下载时，浏览器可能需要允许本站下载多个文件。`
+    : '下载完整字体'
 })
 const fontSize = computed(() => {
   const size = props.font.size
