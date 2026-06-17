@@ -9,6 +9,10 @@ const props = defineProps({
   previewText: {
     type: String,
     default: '字体预览 ABCD abcd 1234 岁月静好 设计之美'
+  },
+  scale: {
+    type: Number,
+    default: 1
   }
 })
 
@@ -26,6 +30,9 @@ const fontFaceName = computed(() => {
   return `Font-${props.font.id}-${hashString(key)}`
 })
 const fontFamilyStyle = computed(() => displayFontFaceName.value ? `"${displayFontFaceName.value}"` : 'sans-serif')
+const cardStyle = computed(() => ({
+  '--card-scale': props.scale
+}))
 const previewContent = computed(() => {
   if (props.font.supportsChinese !== false) return props.previewText
 
@@ -152,7 +159,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="font-card">
+  <div class="font-card" :style="cardStyle">
     <div class="card-header">
       <h3
         class="font-name"
@@ -208,10 +215,10 @@ onMounted(() => {
   background: #fff;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
-  padding: 16px;
+  padding: calc(16px * var(--card-scale));
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: calc(12px * var(--card-scale));
   transition: box-shadow 0.2s, transform 0.2s;
 }
 
@@ -229,7 +236,7 @@ onMounted(() => {
 
 .font-name {
   margin: 0;
-  font-size: 15px;
+  font-size: calc(15px * var(--card-scale));
   font-weight: 600;
   color: #111827;
   white-space: nowrap;
@@ -246,13 +253,13 @@ onMounted(() => {
 .download-btn {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: calc(4px * var(--card-scale));
   border: 0;
   font-family: inherit;
-  font-size: 12px;
+  font-size: calc(12px * var(--card-scale));
   color: #fff;
   background: #111827;
-  padding: 4px 10px;
+  padding: calc(4px * var(--card-scale)) calc(10px * var(--card-scale));
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.2s;
@@ -265,14 +272,14 @@ onMounted(() => {
 }
 
 .preview {
-  min-height: 80px;
+  min-height: calc(80px * var(--card-scale));
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f9fafb;
   border-radius: 8px;
-  padding: 16px;
-  font-size: 22px;
+  padding: calc(16px * var(--card-scale));
+  font-size: calc(22px * var(--card-scale));
   line-height: 1.4;
   color: #1f2937;
   word-break: break-all;
@@ -285,7 +292,7 @@ onMounted(() => {
 
 .loading,
 .error {
-  font-size: 14px;
+  font-size: calc(14px * var(--card-scale));
   color: #9ca3af;
 }
 
@@ -297,8 +304,8 @@ onMounted(() => {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 8px;
-  font-size: 12px;
+  gap: calc(8px * var(--card-scale));
+  font-size: calc(12px * var(--card-scale));
   color: #9ca3af;
 }
 
@@ -317,21 +324,21 @@ onMounted(() => {
 .variant-list {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: calc(6px * var(--card-scale));
   flex-wrap: wrap;
   justify-content: flex-end;
   flex: 0 1 45%;
-  min-width: 72px;
+  min-width: calc(72px * var(--card-scale));
 }
 
 .variant-pill {
   appearance: none;
   font-family: inherit;
-  font-size: 11px;
+  font-size: calc(11px * var(--card-scale));
   color: #374151;
   background: #fff;
   border: 1px solid #e5e7eb;
-  padding: 2px 8px;
+  padding: calc(2px * var(--card-scale)) calc(8px * var(--card-scale));
   border-radius: 999px;
   text-decoration: none;
   transition: background 0.15s, border-color 0.15s;

@@ -6,6 +6,7 @@ import fontsData from './fonts.json'
 const search = ref('')
 const selectedCategory = ref('')
 const previewText = ref('字体预览 ABCD abcd 1234 岁月静好 设计之美')
+const cardScale = ref(100)
 
 const categoryOrder = {
   '': ['中文字体', '英文字体', '像素字体', '数字字体', '日文字体'],
@@ -88,6 +89,11 @@ const stats = computed(() => {
     totalSubsetSize
   }
 })
+const cardScaleValue = computed(() => cardScale.value / 100)
+const cardScaleLabel = computed(() => Math.round(cardScale.value))
+const fontGridStyle = computed(() => ({
+  '--card-min-width': `${Math.round(320 * cardScaleValue.value)}px`
+}))
 
 function formatSize(bytes) {
   if (bytes < 1024) return bytes + ' B'
@@ -134,6 +140,16 @@ function goToIndex(index) {
           class="preview-input"
           placeholder="输入预览文字..."
         />
+        <label class="scale-control">
+          <span>卡片缩放 {{ cardScaleLabel }}%</span>
+          <input
+            v-model.number="cardScale"
+            type="range"
+            min="80"
+            max="140"
+            step="any"
+          />
+        </label>
       </div>
 
       <!-- 层级分类导航 -->
@@ -178,12 +194,13 @@ function goToIndex(index) {
       </div>
     </header>
 
-    <main class="fonts-grid">
+    <main class="fonts-grid" :style="fontGridStyle">
       <FontCard
         v-for="font in filteredFonts"
         :key="font.id"
         :font="font"
         :preview-text="previewText"
+        :scale="cardScaleValue"
       />
     </main>
 
@@ -264,6 +281,28 @@ body {
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
 }
 
+.scale-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 220px;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  color: #374151;
+  font-size: 13px;
+}
+
+.scale-control span {
+  white-space: nowrap;
+}
+
+.scale-control input {
+  width: 110px;
+  accent-color: #111827;
+}
+
 .category-nav {
   display: flex;
   flex-direction: column;
@@ -336,7 +375,7 @@ body {
 
 .fonts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width, 320px), 1fr));
   gap: 20px;
 }
 
