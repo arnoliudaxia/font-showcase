@@ -1940,5 +1940,29 @@
     "subsetPath": "subsets/中文字体_圆体_YSHaoShenTi.woff2",
     "size": 5532,
     "tip": "圆柔纤细，有亲和力和现代感的字体"
+  },
+  {
+    "id": "中文字体_圆体_汉仪中圆_汉仪细中圆简",
+    "name": "汉仪细中圆简",
+    "category": "中文字体/圆体/汉仪中圆",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%89%E4%BB%AA%E4%B8%AD%E5%9C%86/HanYiXiZhongYuanJian-1.ttf",
+    "subsetPath": "subsets/中文字体_圆体_汉仪中圆_汉仪细中圆简.woff2",
+    "size": 5736
+  },
+  {
+    "id": "中文字体_圆体_汉仪中圆_汉仪中圆繁",
+    "name": "汉仪中圆繁",
+    "category": "中文字体/圆体/汉仪中圆",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%89%E4%BB%AA%E4%B8%AD%E5%9C%86/HanYiZhongYuanFan-1.ttf",
+    "subsetPath": "subsets/中文字体_圆体_汉仪中圆_汉仪中圆繁.woff2",
+    "size": 6324
+  },
+  {
+    "id": "中文字体_圆体_汉仪中圆_汉仪中圆简",
+    "name": "汉仪中圆简",
+    "category": "中文字体/圆体/汉仪中圆",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%89%E4%BB%AA%E4%B8%AD%E5%9C%86/HanYiZhongYuanJian-1.ttf",
+    "subsetPath": "subsets/中文字体_圆体_汉仪中圆_汉仪中圆简.woff2",
+    "size": 6024
   }
 ]
