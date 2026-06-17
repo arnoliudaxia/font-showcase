@@ -375,11 +375,11 @@
     "size": 6988
   },
   {
-    "id": "中文字体_趣味向_字帮玩酷体",
+    "id": "中文字体_手写_字帮玩酷体",
     "name": "字帮玩酷体",
-    "category": "中文字体/趣味向",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E8%B6%A3%E5%91%B3%E5%90%91/%E5%AD%97%E5%B8%AE%E7%8E%A9%E9%85%B7%E4%BD%93.ttf",
-    "subsetPath": "subsets/中文字体_趣味向_字帮玩酷体.woff2",
+    "category": "中文字体/手写",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/%E5%AD%97%E5%B8%AE%E7%8E%A9%E9%85%B7%E4%BD%93.ttf",
+    "subsetPath": "subsets/中文字体_手写_字帮玩酷体.woff2",
     "size": 6688
   },
   {
@@ -1906,11 +1906,11 @@
     "tip": "一款可爱风格的日系手写字体"
   },
   {
-    "id": "中文字体_趣味向_cjkFonts_allseto_v1.11",
+    "id": "中文字体_手写_cjkFonts_allseto_v1.11",
     "name": "cjkFonts_allseto_v1.11",
-    "category": "中文字体/趣味向",
-    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E8%B6%A3%E5%91%B3%E5%90%91/cjkFonts_allseto_v1.11.ttf",
-    "subsetPath": "subsets/中文字体_趣味向_cjkFonts_allseto_v1.11.woff2",
+    "category": "中文字体/手写",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/cjkFonts_allseto_v1.11.ttf",
+    "subsetPath": "subsets/中文字体_手写_cjkFonts_allseto_v1.11.woff2",
     "size": 6588,
     "tip": "基于濑户字体透过深度学习智能造字"
   },
@@ -1964,5 +1964,56 @@
     "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/%E6%B1%89%E4%BB%AA%E4%B8%AD%E5%9C%86/HanYiZhongYuanJian-1.ttf",
     "subsetPath": "subsets/中文字体_圆体_汉仪中圆_汉仪中圆简.woff2",
     "size": 6024
+  },
+  {
+    "id": "中文字体_圆体_汉仪家书简",
+    "name": "汉仪家书简",
+    "category": "中文字体/圆体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/HanYiJiaShuJian-1.ttf",
+    "subsetPath": "subsets/中文字体_圆体_汉仪家书简.woff2",
+    "size": 5584
+  },
+  {
+    "id": "中文字体_圆体_汉仪粗圆简",
+    "name": "汉仪粗圆简",
+    "category": "中文字体/圆体",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E5%9C%86%E4%BD%93/HanYiCuYuanJian-1.ttf",
+    "subsetPath": "subsets/中文字体_圆体_汉仪粗圆简.woff2",
+    "size": 4792
+  },
+  {
+    "id": "中文字体_手写_小賴字體等寬",
+    "name": "小賴字體等寬",
+    "category": "中文字体/手写",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/XiaolaiMono-Regular.ttf",
+    "subsetPath": "subsets/中文字体_手写_小賴字體等寬.woff2",
+    "size": 5280
+  },
+  {
+    "id": "中文字体_手写_小賴字體",
+    "name": "小賴字體",
+    "category": "中文字体/手写",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/Xiaolai-Regular.ttf",
+    "subsetPath": "subsets/中文字体_手写_小賴字體.woff2",
+    "size": 5392
+  },
+  {
+    "id": "中文字体_手写_巴扎黑嘿嘿",
+    "name": "巴扎黑嘿嘿",
+    "category": "中文字体/手写",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/49232df857e94df13825f9529b9ac713.ttf",
+    "subsetPath": "subsets/中文字体_手写_巴扎黑嘿嘿.woff2",
+    "size": 4540
+  },
+  {
+    "id": "英文字体_手写_Excalifont-Regular",
+    "name": "Excalifont",
+    "displayName": "Excalifont",
+    "category": "英文字体/手写",
+    "originalPath": "https://1812331343.v.123pan.cn/1812331343/%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F/font/%E8%8B%B1%E6%96%87%E5%AD%97%E4%BD%93/%E6%89%8B%E5%86%99/Excalifont-Regular.woff2",
+    "subsetPath": "subsets/英文字体_手写_Excalifont-Regular.woff2",
+    "size": 5364,
+    "tip": "[Excalidraw](https://excalidraw.com/)使用，based on the original handwritten [Virgil](https://plus.excalidraw.com/virgil) font carefully curated to improve legibility while preserving its hand-drawn nature.",
+    "supportsChinese": false
   }
 ]

@@ -139,6 +139,8 @@ function goToIndex(index) {
           type="text"
           class="preview-input"
           placeholder="输入预览文字..."
+          title="当前使用固定子集预览，暂不支持自定义预览文字"
+          disabled
         />
         <label class="scale-control">
           <span>卡片缩放 {{ cardScaleLabel }}%</span>
@@ -279,6 +281,12 @@ body {
 .preview-input:focus {
   border-color: #6366f1;
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.preview-input:disabled {
+  cursor: not-allowed;
+  background: #f9fafb;
+  color: #6b7280;
 }
 
 .scale-control {
