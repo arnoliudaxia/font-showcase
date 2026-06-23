@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
+import { Analytics } from '@vercel/analytics/vue'
 import FontCard from './components/FontCard.vue'
 import fontsData from './fonts.json'
 
@@ -119,6 +120,7 @@ function goToIndex(index) {
 </script>
 
 <template>
+  <Analytics />
   <div class="app-container">
     <header class="app-header">
       <img class="site-logo" src="/icon1.png" alt="" />
