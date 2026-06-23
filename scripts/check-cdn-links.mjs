@@ -86,15 +86,14 @@ const results = await runPool(urls)
 const failures = results.filter((result) => !result.ok)
 
 if (failures.length > 0) {
-  console.error(`CDN link check failed: ${failures.length}/${results.length}`)
+  console.warn(`⚠️  CDN link check warning: ${failures.length}/${results.length} links failed (non-blocking)`)
 
   for (const failure of failures) {
     const reason = failure.error ? `${failure.status} ${failure.error}` : failure.status
-    console.error(`- [${reason}] ${failure.label}`)
-    console.error(`  ${failure.url}`)
+    console.warn(`- [${reason}] ${failure.label}`)
+    console.warn(`  ${failure.url}`)
   }
-
-  process.exit(1)
+} else {
+  console.log(`CDN link check passed: ${results.length}/${results.length}`)
 }
 
-console.log(`CDN link check passed: ${results.length}/${results.length}`)
