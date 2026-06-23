@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { Analytics } from '@vercel/analytics/vue'
+import { SpeedInsights } from '@vercel/speed-insights/vue'
 import FontCard from './components/FontCard.vue'
 import fontsData from './fonts.json'
 
@@ -121,6 +122,7 @@ function goToIndex(index) {
 
 <template>
   <Analytics />
+  <SpeedInsights />
   <div class="app-container">
     <header class="app-header">
       <img class="site-logo" src="/icon1.png" alt="" />
